@@ -1,0 +1,150 @@
+{
+  "dafea4c7901c5c4ab5a5608b7760dc32": {
+    "query": "test query for cache",
+    "results": [
+      {
+        "id": "123",
+        "title": "Test Paper"
+      }
+    ],
+    "timestamp": "2026-06-21T18:40:49.012451+00:00"
+  },
+  "d90e335e9060123355b89943aab685ef": {
+    "query": "overwrite-test",
+    "results": [
+      {
+        "id": "2"
+      }
+    ],
+    "timestamp": "2026-06-21T18:40:49.016999+00:00"
+  },
+  "399c6871bd0069473d0c20b9e2b63836": {
+    "query": "Adaptive Hybrid Quantum-Classical Framework with Byzantine-Robust Federated Learning and Noise-Aware QAOA for Trustworthy AI-Driven Healthcare Hybrid quantum-classical systems have attracted serious attention in healthcare, but translating early results into routine clinical use remains harder than benchmarks suggest. Three practical gaps stand in the way. QAOA circuit depth is typically fixed at design time, leaving the algorithm blind to hardware drift since last calibration. FL defences based on cryptographic signatures can confirm the identity of a gradient sender, yet offer no insight into whether that gradient is adversarial. And no principled criterion exists for deciding when quantum offloading actually outperforms a classical solver. This paper introduces A-HQCA to address all three. Noise-Adaptive QAOA (NA-QAOA) queries real-time hardware calibration and adjusts circuit depth dynamically, reducing OR scheduling optimality gap from 5.1% to 0.9%. A two-stage FL defence (QDS+FLTrust) pairs quantum signature provenance with cosine-similarity gradient scoring, cutting poisoning success from 3.8% to 0.6% at 2.1 ms overhead. A Hardware Readiness Envelope (HRE) defines the noise conditions (CX error < 1.1\u00d710\u207b\u00b2, T\u2081 > 120 \u03bcs) under which quantum offloading is genuinely beneficial. Experiments across four clinical benchmarks yield statistically significant improvements (p < 0.01) over all baselines.",
+    "results": [
+      {
+        "id": "http://arxiv.org/abs/2303.15563v1",
+        "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+        "abstract": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered along the entire ML pipeline, from model training to inference. In this paper, we conduct a review of recent literature concerning Privacy-Preserving Machine Learning (PPML) for healthcare. We primarily focus on privacy-preserving training and inference-as-a-service, and perform a comprehensive review of existing trends, identify challenges, and discuss opportunities for future research directions. The aim of this review is to guide the development of private and efficient ML models in healthcare, with the prospects of translating research efforts into real-world settings.",
+        "authors": [
+          "Alejandro Guerra-Manzanares",
+          "L. Julian Lechuga Lopez",
+          "Michail Maniatakos",
+          "Farah E. Shamout"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2303.15563v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2503.02345v1",
+        "title": "CQ CNN: A Hybrid Classical Quantum Convolutional Neural Network for Alzheimer's Disease Detection Using Diffusion Generated and U Net Segmented 3D MRI",
+        "abstract": "The detection of Alzheimer disease (AD) from clinical MRI data is an active area of research in medical imaging. Recent advances in quantum computing, particularly the integration of parameterized quantum circuits (PQCs) with classical machine learning architectures, offer new opportunities to develop models that may outperform traditional methods. However, quantum machine learning (QML) remains in its early stages and requires further experimental analysis to better understand its behavior and limitations. In this paper, we propose an end to end hybrid classical quantum convolutional neural network (CQ CNN) for AD detection using clinically formatted 3D MRI data. Our approach involves developing a framework to make 3D MRI data usable for machine learning, designing and training a brain tissue segmentation model (Skull Net), and training a diffusion model to generate synthetic images for the minority class. Our converged models exhibit potential quantum advantages, achieving higher accuracy in fewer epochs than classical models. The proposed beta8 3 qubit model achieves an accuracy of 97.50%, surpassing state of the art (SOTA) models while requiring significantly fewer computational resources. In particular, the architecture employs only 13K parameters (0.48 MB), reducing the parameter count by more than 99.99% compared to current SOTA models. Furthermore, the diffusion-generated data used to train our quantum models, in conjunction with real samples, preserve clinical structural standards, representing a notable first in the field of QML. We conclude that CQCNN architecture like models, with further improvements in gradient optimization techniques, could become a viable option and even a potential alternative to classical models for AD detection, especially in data limited and resource constrained clinical settings.",
+        "authors": [
+          "Mominul Islam",
+          "Mohammad Junayed Hasan",
+          "M. R. C. Mahdy"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2503.02345v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2001.08941v1",
+        "title": "Symmetries and periodic orbits in simple hybrid Routhian systems",
+        "abstract": "Symmetries are ubiquitous in a wide range of nonlinear systems. Particularly in systems whose dynamics are determined by a Lagrangian or Hamiltonian function. For hybrid systems which possess a continuous-time dynamics determined by a Lagrangian function, with a cyclic variable, the degrees of freedom for the corresponding hybrid Lagrangian system can be reduced by means of a method known as \\textit{hybrid Routhian reduction}. In this paper we study sufficient conditions for the existence of periodic orbits in hybrid Routhian systems which also exhibit time-reversal symmetry. Likewise, we explore some stability aspects of such orbits through the characterization of the eigenvalues for the corresponding linearized Poincar\u00e9 map. Finally, we apply the results to find periodic solutions in underactuated hybrid Routhian control systems.",
+        "authors": [
+          "Leonardo Colombo",
+          "Maria Emma Eyrea Irazu"
+        ],
+        "year": 2020,
+        "url": "http://arxiv.org/abs/2001.08941v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2211.07893v2",
+        "title": "Federated Learning for Healthcare Domain - Pipeline, Applications and Challenges",
+        "abstract": "Federated learning is the process of developing machine learning models over datasets distributed across data centers such as hospitals, clinical research labs, and mobile devices while preventing data leakage. This survey examines previous research and studies on federated learning in the healthcare sector across a range of use cases and applications. Our survey shows what challenges, methods, and applications a practitioner should be aware of in the topic of federated learning. This paper aims to lay out existing research and list the possibilities of federated learning for healthcare industries.",
+        "authors": [
+          "Madhura Joshi",
+          "Ankit Pal",
+          "Malaikannan Sankarasubbu"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2211.07893v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2504.10069v2",
+        "title": "Relativistic Quantum Simulation of Hydrogen Sulfide for Hydrogen Energy via Hybrid Quantum-Classical Algorithms",
+        "abstract": "We present a relativistic quantum simulation framework for modeling hydrogen sulfide (H2S) decomposition relevant to hydrogen energy applications. The approach integrates Dirac-Coulomb relativistic quantum chemistry with the variational quantum eigensolver (VQE), implemented on a hybrid quantum-classical architecture. Using quantum algorithms based on Jordan-Wigner encoding and relativistic integrals, we simulate ground-state energies and potential energy surfaces for H2, H2O, and H2S molecules. Results demonstrate that the relativistic VQE correctly reproduces known energy shifts and molecular trends. Optimizer performance, energy variance, and Pauli term complexity are also evaluated. The findings offer insight into scalable quantum simulations of chemically and physically significant systems involving heavy atoms.",
+        "authors": [
+          "Chi-Chuan Hwang",
+          "Cheng-Fang Su",
+          "Jung-Fan Yang"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2504.10069v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2303.04538v2",
+        "title": "Hybrid quantum-classical dynamics of pure-dephasing systems",
+        "abstract": "We consider the interaction dynamics of a classical oscillator and a quantum two-level system for different pure-dephasing Hamiltonians of the type $\\widehat{H}(q,p)=H_C(q,p)\\boldsymbol{1}+H_I(q,p)\\widehat\u03c3_z$. This type of systems represents a severe challenge for popular hybrid quantum-classical descriptions. For example, in the case of the common Ehrenfest model, the classical density evolution is shown to decouple entirely from the pure-dephasing quantum dynamics. We focus on a recently proposed hybrid wave equation that is based on Koopman's wavefunction description of classical mechanics. This model retains quantum-classical correlations whenever a coupling potential is present. Here, several benchmark problems are considered and the results are compared with those arising from fully quantum dynamics. A good agreement is found for a series of study cases involving harmonic oscillators with linear and quadratic coupling, as well as time-varying coupling parameters. In all these cases the classical evolution coincides exactly with the oscillator dynamics resulting from the fully quantum description. In the special case of time-independent coupling involving a classical oscillator with varying frequency, the quantum Bloch rotation exhibits peculiar features that escape from the hybrid description. In addition, nonlinear corrections to the harmonic Hamiltonian lead to an overall growth of decoherence at long times, which is absent in the fully quantum treatment.",
+        "authors": [
+          "Giovanni Manfredi",
+          "Antoine Rittaud",
+          "Cesare Tronci"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2303.04538v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/1912.08278v2",
+        "title": "Transfer learning in hybrid classical-quantum neural networks",
+        "abstract": "We extend the concept of transfer learning, widely applied in modern machine learning algorithms, to the emerging context of hybrid neural networks composed of classical and quantum elements. We propose different implementations of hybrid transfer learning, but we focus mainly on the paradigm in which a pre-trained classical network is modified and augmented by a final variational quantum circuit. This approach is particularly attractive in the current era of intermediate-scale quantum technology since it allows to optimally pre-process high dimensional data (e.g., images) with any state-of-the-art classical network and to embed a select set of highly informative features into a quantum processor. We present several proof-of-concept examples of the convenient application of quantum transfer learning for image recognition and quantum state classification. We use the cross-platform software library PennyLane to experimentally test a high-resolution image classifier with two different quantum computers, respectively provided by IBM and Rigetti.",
+        "authors": [
+          "Andrea Mari",
+          "Thomas R. Bromley",
+          "Josh Izaac",
+          "Maria Schuld",
+          "Nathan Killoran"
+        ],
+        "year": 2019,
+        "url": "http://arxiv.org/abs/1912.08278v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2207.14810v3",
+        "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+        "abstract": "The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Higgott and Brierley [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by defining a family of algorithms known as $\u03b1$-QPE). In this work, we show that the scaling of $\u03b1$-QPE can be naturally and succinctly derived within the framework of Quantum Singular Value Transformation (QSVT). From the QSVT perspective, a greater number of coherent oracle calls translates into a better polynomial approximation to the sign function, which is the key routine for solving Phase Estimation. The better the approximation to the sign function, the fewer samples one needs to determine the sign accurately. With this idea, we simplify the proof of $\u03b1$-QPE, while providing a new interpretation of the interpolation parameters, and show that QSVT is a promising framework for reasoning about classical-quantum interpolations.",
+        "authors": [
+          "Duarte Magano",
+          "Miguel Mur\u00e7a"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2207.14810v3"
+      },
+      {
+        "id": "http://arxiv.org/abs/2309.13184v1",
+        "title": "Document Understanding for Healthcare Referrals",
+        "abstract": "Reliance on scanned documents and fax communication for healthcare referrals leads to high administrative costs and errors that may affect patient care. In this work we propose a hybrid model leveraging LayoutLMv3 along with domain-specific rules to identify key patient, physician, and exam-related entities in faxed referral documents. We explore some of the challenges in applying a document understanding model to referrals, which have formats varying by medical practice, and evaluate model performance using MUC-5 metrics to obtain appropriate metrics for the practical use case. Our analysis shows the addition of domain-specific rules to the transformer model yields greatly increased precision and F1 scores, suggesting a hybrid model trained on a curated dataset can increase efficiency in referral management.",
+        "authors": [
+          "Jimit Mistry",
+          "Natalia M. Arzeno"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2309.13184v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2207.09312v1",
+        "title": "Towards Trustworthy Healthcare AI: Attention-Based Feature Learning for COVID-19 Screening With Chest Radiography",
+        "abstract": "Building AI models with trustworthiness is important especially in regulated areas such as healthcare. In tackling COVID-19, previous work uses convolutional neural networks as the backbone architecture, which has shown to be prone to over-caution and overconfidence in making decisions, rendering them less trustworthy -- a crucial flaw in the context of medical imaging. In this study, we propose a feature learning approach using Vision Transformers, which use an attention-based mechanism, and examine the representation learning capability of Transformers as a new backbone architecture for medical imaging. Through the task of classifying COVID-19 chest radiographs, we investigate into whether generalization capabilities benefit solely from Vision Transformers' architectural advances. Quantitative and qualitative evaluations are conducted on the trustworthiness of the models, through the use of \"trust score\" computation and a visual explainability technique. We conclude that the attention-based feature learning approach is promising in building trustworthy deep learning models for healthcare.",
+        "authors": [
+          "Kai Ma",
+          "Pengcheng Xi",
+          "Karim Habashy",
+          "Ashkan Ebadi",
+          "St\u00e9phane Tremblay",
+          "Alexander Wong"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2207.09312v1"
+      }
+    ],
+    "timestamp": "2026-06-21T18:39:26.020381+00:00"
+  }
+}
