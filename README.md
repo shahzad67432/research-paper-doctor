@@ -1,8 +1,8 @@
 # PaperDoctor AI
 
-A research paper analyzer that parses academic PDFs, extracts structure (title, abstract, sections, references), and scores publication readiness.
-
-**Phase 1** — PDF parsing foundation. No LLM calls, no RAG, no GUI yet.
+A research paper analysis platform with PDF parsing, structure analysis, gap detection,
+similarity checking, citation verification, improvement suggestions, publication readiness
+scoring, journal matching, RAG-based Q&A, and research gap discovery.
 
 ## Setup
 
@@ -14,54 +14,63 @@ source venv/bin/activate
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Drop PDFs to analyze into examples/
-#    (Already there by default)
+# 3. Copy .env.example to .env and add your Google Gemini API key
+cp .env.example .env
 ```
 
-## Usage
+## Running the GUI
 
-```python
-from src.parser import parse_paper_pdf
-from src.analyzer import analyze_paper_structure
-
-parsed = parse_paper_pdf("examples/sample-paper.pdf")
-analysis = analyze_paper_structure(parsed)
-
-print(analysis["topic_guess"])
-print(analysis["sections_present"])
-print(analysis["word_counts"])
+```bash
+streamlit run gui/app.py
 ```
+
+Opens in your browser at `http://localhost:8501` with three tabs:
+- **🔬 Analyze Paper** — upload a PDF and run the full analysis pipeline
+- **💬 Q&A over Papers** — ask questions using RAG over the paper database
+- **🔍 Gap Discovery** — find research gaps relevant to your interests
 
 ## Running Tests
 
 ```bash
-# Activate venv first, then:
 pytest -v
 
-# Tests skip gracefully if examples/ is empty.
-# Place at least one .pdf in examples/ to run them.
+# Skip integration tests (live API calls):
+pytest -v -m "not integration"
 ```
 
 ## Project Structure
 
 ```
 paperdoctor-ai/
+├── gui/
+│   └── app.py              # Streamlit GUI
 ├── src/
-│   ├── __init__.py
-│   ├── parser.py          # parse_paper_pdf(pdf_path) -> dict
-│   └── analyzer.py        # analyze_paper_structure(parsed) -> dict
+│   ├── parser.py           # parse_paper_pdf(pdf_path) -> dict
+│   ├── analyzer.py         # analyze_paper_structure(parsed) -> dict
+│   ├── gap_finder.py       # find_research_gaps(structure) -> list
+│   ├── similarity_checker.py # check_similar_papers(title, abstract) -> list
+│   ├── citation_verifier.py # verify_citations(references) -> dict
+│   ├── improvement_suggester.py # generate_improvements(...) -> list
+│   ├── readiness_scorer.py # calculate_readiness_score(...) -> dict
+│   ├── journal_matcher.py  # match_journals(topic, score) -> list
+│   ├── qa_interface.py     # answer_question(query) -> dict
+│   ├── discovery_engine.py # find_papers_with_gaps(interest) -> list
+│   ├── rag_engine.py       # RAG cache layer (ChromaDB + sentence-transformers)
+│   ├── llm_client.py       # Gemini API client
+│   ├── database_search.py  # arXiv, PubMed, OpenAlex search
+│   ├── cache_manager.py    # API response cache
+│   └── graph.py            # LangGraph workflow definition
 ├── tests/
-│   ├── __init__.py
-│   └── test_parser.py     # pytest suite (skips if no PDFs present)
-├── examples/              # Drop your PDFs here
+│   ├── test_parser.py
+│   ├── test_graph.py
+│   ├── test_rag_engine.py
+│   ├── test_readiness_scorer.py
+│   ├── test_cache_manager.py
+│   ├── test_citation_verifier.py
+│   └── test_journal_matcher.py
+├── data/
+│   └── journal_database.csv
+├── examples/
 ├── requirements.txt
 └── .env.example
 ```
-
-## Output Format
-
-`parse_paper_pdf` returns a dict with keys: `title`, `abstract`, `introduction`, `methods`, `results`, `conclusion`, `references` (list of strings), `full_text`.
-
-Missing sections return an empty string rather than crashing.
-
-`analyze_paper_structure` adds: `word_counts` (per section), `sections_present` (bool per section), `topic_guess` (title + first 2 abstract sentences).

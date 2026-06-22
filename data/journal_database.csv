@@ -1,0 +1,26 @@
+name,topic,acceptance_rate,prestige,url
+ACL,NLP computational linguistics,25,top,https://aclanthology.org
+EMNLP,NLP empirical methods,25,top,https://aclanthology.org
+NAACL,NLP North America,30,top,https://aclanthology.org
+COLING,computational linguistics,35,high,https://aclanthology.org
+EACL,NLP Europe,30,high,https://aclanthology.org
+NeurIPS,machine learning AI,20,top,https://neurips.cc
+ICML,machine learning,25,top,https://icml.cc
+ICLR,deep learning representation,28,top,https://iclr.cc
+AAAI,artificial intelligence,20,top,https://aaai.org
+IJCAI,AI joint conference,15,top,https://ijcai.org
+IEEE Access,engineering multidisciplinary,60,medium,https://ieeeaccess.ieee.org
+PLOS ONE,multidisciplinary science,70,medium,https://journals.plos.org
+arXiv preprint,NLP machine learning AI,100,preprint,https://arxiv.org
+Computers in Biology and Medicine,healthcare AI,55,medium,https://www.sciencedirect.com
+Journal of Biomedical Informatics,health informatics,40,high,https://www.sciencedirect.com
+Expert Systems with Applications,AI applications,45,high,https://www.sciencedirect.com
+Information Processing and Management,information retrieval NLP,35,high,https://www.sciencedirect.com
+Knowledge-Based Systems,AI knowledge,40,high,https://www.sciencedirect.com
+Applied Soft Computing,soft computing AI,50,medium,https://www.sciencedirect.com
+Neurocomputing,neural networks deep learning,50,medium,https://www.sciencedirect.com
+Pattern Recognition,pattern recognition vision,35,high,https://www.sciencedirect.com
+Future Generation Computer Systems,distributed AI,50,medium,https://www.sciencedirect.com
+Frontiers in Artificial Intelligence,AI broad,65,medium,https://www.frontiersin.org
+ACM Computing Surveys,CS surveys,15,top,https://dl.acm.org
+IEEE Transactions on Neural Networks,neural networks,30,top,https://ieeexplore.ieee.org
