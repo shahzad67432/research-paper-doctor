@@ -5,9 +5,9 @@ from src.citation_verifier import _extract_doi, _string_similarity
 
 class TestCitationVerifier:
     def test_doi_extraction_found(self):
-        ref = "J. Smith, \"A Study,\" Nature, vol. 10, doi:10.1234/test.5678, 2023."
+        ref = "J. Smith, \"A Study,\" Nature, vol. 10, doi:10.1000/test.5678, 2023."
         doi = _extract_doi(ref)
-        assert doi == "10.1234/test.5678"
+        assert doi == "10.1000/test.5678"
 
     def test_doi_extraction_complex(self):
         ref = "doi:10.1001/jama.2020.12345"

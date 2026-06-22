@@ -39,5 +39,6 @@ NUMBER OF REFERENCES: {len(refs)}"""
     try:
         raw = call_gemini(GAP_SYSTEM_PROMPT, user_text)
         return parse_json_response(raw)
-    except Exception:
+    except Exception as e:
+        print(f"gap_finder LLM error: {e}", file=sys.stderr)
         return []

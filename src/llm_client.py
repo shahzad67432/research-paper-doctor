@@ -12,9 +12,13 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"
-OPENROUTER_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"
+GEMINI_MODEL = "gemini-1.5-flash"
+OPENROUTER_MODEL = "qwen/qwen3-coder:free"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+
+def any_key_available() -> bool:
+    return bool(GEMINI_API_KEY) or bool(OPENROUTER_API_KEY)
 
 RETRY_DELAYS = [5, 15, 30]
 
@@ -81,7 +85,7 @@ def call_gemini(
                     continue
                 last_error = e
                 if not is_quota:
-                    raise
+                    break
 
     if OPENROUTER_API_KEY:
         print("Gemini quota exhausted, falling back to OpenRouter...", file=sys.stderr)

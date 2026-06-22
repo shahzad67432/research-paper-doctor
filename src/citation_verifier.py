@@ -14,11 +14,18 @@ CROSSREF_WORKS_URL = "https://api.crossref.org/works"
 HEADERS = {"User-Agent": USER_AGENT}
 
 DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.IGNORECASE)
+# 10.1234 is the official DOI example prefix — never resolves to real content
+_FAKE_DOI_PREFIXES = ("10.1234",)
 
 
 def _extract_doi(ref: str) -> str | None:
     m = DOI_RE.search(ref)
-    return m.group(0) if m else None
+    if not m:
+        return None
+    doi = m.group(0)
+    if doi.startswith(_FAKE_DOI_PREFIXES):
+        return None
+    return doi
 
 
 def _verify_doi(doi: str) -> bool:

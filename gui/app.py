@@ -12,6 +12,7 @@ if str(_proj_root) not in sys.path:
 import streamlit as st
 
 from src.graph import app
+from src.llm_client import any_key_available
 from src.rag_engine import _get_collection
 
 
@@ -20,6 +21,43 @@ def get_collection_count() -> int:
         return _get_collection().count()
     except Exception:
         return 0
+
+
+def pipeline_status_items(result: dict) -> list[dict]:
+    checks = [
+        ("PDF Parsing", result.get("parsed_content"), bool(result.get("parsed_content", {}).get("title"))),
+        ("Structure Analysis", result.get("structure"), bool(result.get("structure", {}).get("word_counts"))),
+        ("Gap Detection", result.get("gaps"), len(result.get("gaps", [])) > 0),
+        ("Similarity Check", result.get("similar_papers"), len(result.get("similar_papers", [])) > 0),
+        ("Citation Verification", result.get("citation_results"), result.get("citation_results", {}).get("total", 0) > 0),
+        ("Improvement Suggestions", result.get("improvements"), len(result.get("improvements", [])) > 0),
+        ("Readiness Scoring", result.get("readiness_score"), result.get("readiness_score", {}).get("score", 0) > 0),
+        ("Journal Matching", result.get("journal_matches"), len(result.get("journal_matches", [])) > 0),
+    ]
+    return [
+        {"label": label, "exists": exists, "ok": ok}
+        for label, exists, ok in checks
+    ]
+
+
+def render_pipeline_card(items: list[dict], sub_steps: list[dict] | None = None) -> None:
+    lines = []
+    for item in items:
+        if not item["exists"]:
+            icon = "❌"
+        elif item["ok"]:
+            icon = "✅"
+        else:
+            icon = "⚠️"
+        lines.append(f"{icon} {item['label']}")
+    if sub_steps:
+        for s in sub_steps:
+            s_icon = "✅" if s["ok"] else "⚠️"
+            lines.append(f"&emsp;{s_icon} {s['label']}")
+    st.markdown(
+        "#### Pipeline Status\n" + "\n".join(lines),
+    )
+    st.divider()
 
 
 st.set_page_config(page_title="PaperDoctor AI", page_icon="🔬", layout="wide")
@@ -96,6 +134,11 @@ st.sidebar.markdown(
     "Analyze research papers, find gaps, check similarity, "
     "and score publication readiness."
 )
+if not any_key_available():
+    st.sidebar.warning(
+        "No LLM API keys configured — gap discovery and Q&A "
+        "will be limited. Set GEMINI_API_KEY or OPENROUTER_API_KEY in .env",
+    )
 st.sidebar.divider()
 st.sidebar.metric("Papers in RAG Cache", get_collection_count())
 st.sidebar.divider()
@@ -122,7 +165,7 @@ with tab_analyze:
             st.session_state["paper_path"] = tmp.name
         st.success(f"Uploaded: {uploaded.name}")
 
-    if st.button("Analyze Paper", use_container_width=True):
+    if st.button("Analyze Paper", width="stretch"):
         paper_path = st.session_state.get("paper_path")
         if not paper_path:
             st.error("Please upload a PDF first.")
@@ -151,13 +194,15 @@ with tab_analyze:
         score = result.get("readiness_score", {})
         journals = result.get("journal_matches", [])
 
+        render_pipeline_card(pipeline_status_items(result))
+
         with st.expander("Paper Structure", expanded=True):
             title = parsed.get("title", structure.get("topic_guess", "Untitled"))
             st.subheader(title)
 
             wc = structure.get("word_counts", {})
             if wc:
-                st.bar_chart(wc, use_container_width=True)
+                st.bar_chart(wc, width="stretch")
 
             sections = structure.get("sections_present", {})
             if sections:
@@ -219,7 +264,7 @@ with tab_analyze:
                         column_config={
                             "URL": st.column_config.LinkColumn("URL"),
                         },
-                        use_container_width=True,
+                        width="stretch",
                         hide_index=True,
                     )
             else:
@@ -283,7 +328,7 @@ with tab_analyze:
                     column_config={
                         "Submit": st.column_config.LinkColumn("Submit"),
                     },
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
             else:
@@ -295,7 +340,7 @@ with tab_analyze:
                 data=json.dumps(result, indent=2, default=str),
                 file_name="paperdoctor_report.json",
                 mime="application/json",
-                use_container_width=True,
+                width="stretch",
             )
 
 with tab_qa:
@@ -304,7 +349,7 @@ with tab_qa:
         placeholder="e.g. What methods work best for NLP in healthcare?",
     )
 
-    if st.button("Search", use_container_width=True):
+    if st.button("Search", width="stretch"):
         if not query.strip():
             st.error("Please enter a question.")
         else:
@@ -318,11 +363,21 @@ with tab_qa:
                     result = app.invoke(state)
                     qa = result.get("qa_result", {})
                     st.session_state["qa_result"] = qa
+                    st.session_state["qa_state"] = result
                 except Exception as e:
                     st.error(f"Search failed: {e}")
 
     if "qa_result" in st.session_state:
         qa = st.session_state["qa_result"]
+        qa_full = st.session_state.get("qa_state", {})
+        qa_steps = qa_full.get("_steps", [])
+        render_pipeline_card([
+            {
+                "label": "Q&A Search",
+                "exists": True,
+                "ok": bool(qa.get("answer")) and "Unable to generate" not in qa.get("answer", ""),
+            },
+        ], sub_steps=qa_steps)
         st.markdown(
             f'<div class="qa-card">{qa.get("answer", "")}</div>',
             unsafe_allow_html=True,
@@ -337,7 +392,7 @@ with tab_qa:
                     "Title": p.get("title", ""),
                     "Year": p.get("year", ""),
                 })
-            st.dataframe(pu_data, use_container_width=True, hide_index=True)
+            st.dataframe(pu_data, width="stretch", hide_index=True)
 
         saved = qa.get("api_calls_saved", 0)
         if saved:
@@ -349,7 +404,7 @@ with tab_discover:
         placeholder="e.g. transformer models for low-resource Urdu NLP",
     )
 
-    if st.button("Find Opportunities", use_container_width=True):
+    if st.button("Find Opportunities", width="stretch"):
         if not interest.strip():
             st.error("Please enter a research interest.")
         else:
@@ -364,11 +419,24 @@ with tab_discover:
                     st.session_state["discover_result"] = result.get(
                         "discovery_results", []
                     )
+                    st.session_state["discover_state"] = result
                 except Exception as e:
                     st.error(f"Discovery failed: {e}")
 
     if "discover_result" in st.session_state:
         discoveries = st.session_state["discover_result"]
+        result = st.session_state.get("discover_state", {})
+        steps = result.get("_steps", [])
+        has_note = bool(discoveries and discoveries[0].get("_note"))
+        render_pipeline_card([
+            {
+                "label": "Gap Discovery",
+                "exists": True,
+                "ok": bool(discoveries) and not has_note,
+            },
+        ], sub_steps=steps)
+        if has_note:
+            st.warning(discoveries[0]["_note"])
         if discoveries:
             for d in discoveries:
                 st.markdown(
@@ -382,6 +450,6 @@ with tab_discover:
                 )
                 url = d.get("url", "")
                 if url:
-                    st.link_button("View Paper", url, use_container_width=True)
+                    st.link_button("View Paper", url, width="stretch")
         else:
             st.info("No research gaps discovered.")

@@ -29,9 +29,11 @@ class AgentState(TypedDict):
     journal_matches: list
     qa_result: dict
     discovery_results: list
+    _steps: list
 
 
 def router_node(state: AgentState) -> dict:
+    state.setdefault("_steps", [])
     return state
 
 
@@ -137,11 +139,14 @@ def answer_question_node(state: AgentState) -> dict:
         query = state.get("query", "")
         if not query:
             return {"qa_result": {"answer": "No query provided.", "papers_used": [], "api_calls_saved": 0}}
-        result = answer_question(query)
-        return {"qa_result": result}
+        steps: list[dict] = []
+        def _steps(label, ok):
+            steps.append({"label": label, "ok": ok})
+        result = answer_question(query, step_callback=_steps)
+        return {"qa_result": result, "_steps": steps}
     except Exception as e:
         print(f"answer_question_node error: {e}", file=sys.stderr)
-        return {"qa_result": {"answer": "Error processing query.", "papers_used": [], "api_calls_saved": 0}}
+        return {"qa_result": {"answer": "Error processing query.", "papers_used": [], "api_calls_saved": 0}, "_steps": []}
 
 
 def find_gaps_in_db_node(state: AgentState) -> dict:
@@ -149,11 +154,14 @@ def find_gaps_in_db_node(state: AgentState) -> dict:
         query = state.get("query", "")
         if not query:
             return {"discovery_results": []}
-        results = find_papers_with_gaps(query)
-        return {"discovery_results": results}
+        steps: list[dict] = []
+        def _steps(label, ok):
+            steps.append({"label": label, "ok": ok})
+        results = find_papers_with_gaps(query, step_callback=_steps)
+        return {"discovery_results": results, "_steps": steps}
     except Exception as e:
         print(f"find_gaps_in_db_node error: {e}", file=sys.stderr)
-        return {"discovery_results": []}
+        return {"discovery_results": [], "_steps": []}
 
 
 def route_fn(state: AgentState) -> str:

@@ -57,5 +57,6 @@ TOP SIMILAR PAPERS:
     try:
         raw = call_gemini(IMPROVEMENT_SYSTEM_PROMPT, user_text)
         return parse_json_response(raw)
-    except Exception:
+    except Exception as e:
+        print(f"improvement_suggester LLM error: {e}", file=sys.stderr)
         return []
