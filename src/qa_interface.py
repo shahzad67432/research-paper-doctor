@@ -1,11 +1,42 @@
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
 from src.database_search import search_arxiv, search_openalex
 from src.llm_client import call_gemini
 from src.rag_engine import cache_papers, search_rag
 
 QA_SYSTEM_PROMPT = """You are a research assistant. Answer the user's question using only the provided papers as context. Be specific, cite paper titles inline, and end with a 'Recommended Reading' list of the most relevant papers. Return plain text, not JSON."""
+
+
+_embedder = None
+
+
+def _get_embedder():
+    global _embedder
+    if _embedder is None:
+        _embedder = SentenceTransformer("all-MiniLM-L6-v2")
+    return _embedder
+
+
+def _relevance_filter(query: str, papers: list[dict], threshold: float = 0.2) -> list[dict]:
+    if not papers:
+        return []
+    model = _get_embedder()
+    query_vec = model.encode(query)
+    scored: list[tuple[float, dict]] = []
+    for p in papers:
+        text = f"{p.get('title', '')} {p.get('abstract', '')}"
+        if not text.strip():
+            text = p.get("title", "")
+        p_vec = model.encode(text)
+        sim = float(np.dot(query_vec, p_vec) / (np.linalg.norm(query_vec) * np.linalg.norm(p_vec)))
+        if sim >= threshold:
+            scored.append((sim, p))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [p for _, p in scored]
 
 
 def _merge_papers(lists: list[list[dict]]) -> list[dict]:
@@ -40,7 +71,8 @@ def answer_question(
             except Exception:
                 pass
 
-    papers = _merge_papers([cached, all_papers])
+    papers = _merge_papers([all_papers, cached])
+    papers = _relevance_filter(query, papers)
     live_ok = any(f.done() and not f.exception() for f in futures)
     _cb(step_callback, "Live search (arXiv + OpenAlex)", live_ok)
 

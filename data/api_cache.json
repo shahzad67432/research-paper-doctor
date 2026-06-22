@@ -7,7 +7,7 @@
         "title": "Test Paper"
       }
     ],
-    "timestamp": "2026-06-21T18:40:49.012451+00:00"
+    "timestamp": "2026-06-22T20:45:49.892334+00:00"
   },
   "d90e335e9060123355b89943aab685ef": {
     "query": "overwrite-test",
@@ -16,7 +16,7 @@
         "id": "2"
       }
     ],
-    "timestamp": "2026-06-21T18:40:49.016999+00:00"
+    "timestamp": "2026-06-22T20:45:49.898191+00:00"
   },
   "399c6871bd0069473d0c20b9e2b63836": {
     "query": "Adaptive Hybrid Quantum-Classical Framework with Byzantine-Robust Federated Learning and Noise-Aware QAOA for Trustworthy AI-Driven Healthcare Hybrid quantum-classical systems have attracted serious attention in healthcare, but translating early results into routine clinical use remains harder than benchmarks suggest. Three practical gaps stand in the way. QAOA circuit depth is typically fixed at design time, leaving the algorithm blind to hardware drift since last calibration. FL defences based on cryptographic signatures can confirm the identity of a gradient sender, yet offer no insight into whether that gradient is adversarial. And no principled criterion exists for deciding when quantum offloading actually outperforms a classical solver. This paper introduces A-HQCA to address all three. Noise-Adaptive QAOA (NA-QAOA) queries real-time hardware calibration and adjusts circuit depth dynamically, reducing OR scheduling optimality gap from 5.1% to 0.9%. A two-stage FL defence (QDS+FLTrust) pairs quantum signature provenance with cosine-similarity gradient scoring, cutting poisoning success from 3.8% to 0.6% at 2.1 ms overhead. A Hardware Readiness Envelope (HRE) defines the noise conditions (CX error < 1.1\u00d710\u207b\u00b2, T\u2081 > 120 \u03bcs) under which quantum offloading is genuinely beneficial. Experiments across four clinical benchmarks yield statistically significant improvements (p < 0.01) over all baselines.",
@@ -145,6 +145,1770 @@
         "url": "http://arxiv.org/abs/2207.09312v1"
       }
     ],
-    "timestamp": "2026-06-21T18:39:26.020381+00:00"
+    "timestamp": "2026-06-22T20:11:00.714924+00:00"
+  },
+  "764226dded9867cdf348ba9b12bf4b11": {
+    "query": "quantum machine learning",
+    "results": [
+      {
+        "id": "2416a6a604514835dfbad9e911eec224",
+        "title": "Transfer learning in hybrid classical-quantum neural networks",
+        "year": 2019,
+        "authors": [
+          "Andrea Mari",
+          "Thomas R. Bromley",
+          "Josh Izaac",
+          "Maria Schuld",
+          "Nathan Killoran"
+        ],
+        "url": "http://arxiv.org/abs/1912.08278v2",
+        "similarity_score": 0.4036
+      },
+      {
+        "id": "ffa22c9e0e68ebc1a541cf26143a3ee7",
+        "title": "Federated Quantum Natural Gradient Descent for Quantum Federated Learning",
+        "year": 2022,
+        "authors": [
+          "Jun Qi"
+        ],
+        "url": "http://arxiv.org/abs/2209.00564v1",
+        "similarity_score": 0.3708
+      },
+      {
+        "id": "7e360e5c268a863250e0dc040c092351",
+        "title": "Quantum Computing in Biology",
+        "year": 2023,
+        "authors": [
+          "Bob Jones"
+        ],
+        "url": "https://example.com/002",
+        "similarity_score": 0.2756
+      },
+      {
+        "id": "010f0ebabab0ed17226e6ff292c87421",
+        "title": "CQ CNN: A Hybrid Classical Quantum Convolutional Neural Network for Alzheimer's Disease Detection Using Diffusion Generated and U Net Segmented 3D MRI",
+        "year": 2025,
+        "authors": [
+          "Mominul Islam",
+          "Mohammad Junayed Hasan",
+          "M. R. C. Mahdy"
+        ],
+        "url": "http://arxiv.org/abs/2503.02345v1",
+        "similarity_score": 0.0744
+      },
+      {
+        "id": "4bafc4617b9d0fab1a24f5c20bb6504b",
+        "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+        "year": 2022,
+        "authors": [
+          "Duarte Magano",
+          "Miguel Mur\u00e7a"
+        ],
+        "url": "http://arxiv.org/abs/2207.14810v3",
+        "similarity_score": 0.0396
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.11092v2",
+        "title": "MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning",
+        "abstract": "Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open-source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates optimized strong simulation of linear optical circuits into standard PyTorch and scikit learn workflows, enabling end-to-end differentiable training of quantum layers. MerLin is designed around systematic benchmarking and reproducibility. As an initial contribution, we reproduce eighteen state-of-the-art photonic and hybrid QML works spanning kernel methods, reservoir computing, convolutional and recurrent architectures, generative models, and modern training paradigms. These reproductions are released as reusable, modular experiments that can be directly extended and adapted, establishing a shared experimental baseline consistent with empirical benchmarking methodologies widely adopted in modern artificial intelligence. By embedding photonic quantum models within established machine learning ecosystems, MerLin allows practitioners to leverage existing tooling for ablation studies, cross-modality comparisons, and hybrid classical-quantum workflows. The framework already implements hardware-aware features, allowing tests on available quantum hardware while enabling exploration beyond its current capabilities, positioning MerLin as a forward-looking co-design tool linking algorithms, benchmarks, and hardware.",
+        "authors": [
+          "Cassandre Notton",
+          "Benjamin Stott",
+          "Philippe Schoeb",
+          "Anthony Walsh",
+          "Gr\u00e9goire Leboucher",
+          "Vincent Espitalier",
+          "Vassilis Apostolou",
+          "Louis-F\u00e9lix Vigneux",
+          "Alexia Salavrakos",
+          "Jean Senellart"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2602.11092v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2306.04338v1",
+        "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+        "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics. This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse.",
+        "authors": [
+          "Cedric De Boom",
+          "Michael Reusens"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2306.04338v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2006.16189v4",
+        "title": "DOME: Recommendations for supervised machine learning validation in biology",
+        "abstract": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+        "authors": [
+          "Ian Walsh",
+          "Dmytro Fishman",
+          "Dario Garcia-Gasulla",
+          "Tiina Titma",
+          "Gianluca Pollastri",
+          "The ELIXIR Machine Learning focus group",
+          "Jen Harrow",
+          "Fotis E. Psomopoulos",
+          "Silvio C. E. Tosatto"
+        ],
+        "year": 2020,
+        "url": "http://arxiv.org/abs/2006.16189v4"
+      },
+      {
+        "id": "http://arxiv.org/abs/2201.12150v2",
+        "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+        "abstract": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of training iterations. Learning curves have important applications in several machine learning contexts, most notably in data acquisition, early stopping of model training, and model selection. For instance, learning curves can be used to model the performance of the combination of an algorithm and its hyperparameter configuration, providing insights into their potential suitability at an early stage and often expediting the algorithm selection process. Various learning curve models have been proposed to use learning curves for decision making. Some of these models answer the binary decision question of whether a given algorithm at a certain budget will outperform a certain reference performance, whereas more complex models predict the entire learning curve of an algorithm. We contribute a framework that categorises learning curve approaches using three criteria: the decision-making situation they address, the intrinsic learning curve question they answer and the type of resources they use. We survey papers from the literature and classify them into this framework.",
+        "authors": [
+          "Felix Mohr",
+          "Jan N. van Rijn"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2201.12150v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2302.08893v4",
+        "title": "Active learning for data streams: a survey",
+        "abstract": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attention in recent years, particularly in real-world applications where data is only available in an unlabeled form. Annotating each observation can be time-consuming and costly, making it difficult to obtain large amounts of labeled data. To overcome this issue, many active learning strategies have been proposed in the last decades, aiming to select the most informative observations for labeling in order to improve the performance of machine learning models. These approaches can be broadly divided into two categories: static pool-based and stream-based active learning. Pool-based active learning involves selecting a subset of observations from a closed pool of unlabeled data, and it has been the focus of many surveys and literature reviews. However, the growing availability of data streams has led to an increase in the number of approaches that focus on online active learning, which involves continuously selecting and labeling observations as they arrive in a stream. This work aims to provide an overview of the most recently proposed approaches for selecting the most informative observations from data streams in real time. We review the various techniques that have been proposed and discuss their strengths and limitations, as well as the challenges and opportunities that exist in this area of research.",
+        "authors": [
+          "Davide Cacciarelli",
+          "Murat Kulahci"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2302.08893v4"
+      },
+      {
+        "id": "http://arxiv.org/abs/2304.02381v2",
+        "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+        "abstract": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the physical sciences. By identifying conserved weights within groups of minima of the loss landscapes, we can identify the drivers of model decision making. Analogues to this idea exist in the molecular sciences, where coordinate invariants or order parameters are employed to identify critical features of a molecule. However, no such approach exists for machine learning loss landscapes. We will demonstrate the applicability of energy landscape methods to machine learning models and give examples, both synthetic and from the real world, for how these methods can help to make models more interpretable.",
+        "authors": [
+          "Maximilian P Niroomand",
+          "David J Wales"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2304.02381v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2409.07626v2",
+        "title": "Generalization Error Bound for Quantum Machine Learning in NISQ Era -- A Survey",
+        "abstract": "Despite the mounting anticipation for the quantum revolution, the success of Quantum Machine Learning (QML) in the Noisy Intermediate-Scale Quantum (NISQ) era hinges on a largely unexplored factor: the generalization error bound, a cornerstone of robust and reliable machine learning models. Current QML research, while exploring novel algorithms and applications extensively, is predominantly situated in the context of noise-free, ideal quantum computers. However, Quantum Circuit (QC) operations in NISQ-era devices are susceptible to various noise sources and errors. In this article, we conduct a Systematic Mapping Study (SMS) to explore the state-of-the-art generalization bound for supervised QML in NISQ-era and analyze the latest practices in the field. Our study systematically summarizes the existing computational platforms with quantum hardware, datasets, optimization techniques, and the common properties of the bounds found in the literature. We further present the performance accuracy of various approaches in classical benchmark datasets like the MNIST and IRIS datasets. The SMS also highlights the limitations and challenges in QML in the NISQ era and discusses future research directions to advance the field. Using a detailed Boolean operators query in five reliable indexers, we collected 544 papers and filtered them to a small set of 37 relevant articles. This filtration was done following the best practice of SMS with well-defined research questions and inclusion and exclusion criteria.",
+        "authors": [
+          "Bikram Khanal",
+          "Pablo Rivas",
+          "Arun Sanjel",
+          "Korn Sooksatra",
+          "Ernesto Quevedo",
+          "Alejandro Rodriguez"
+        ],
+        "year": 2024,
+        "url": "http://arxiv.org/abs/2409.07626v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2303.15563v1",
+        "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+        "abstract": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered along the entire ML pipeline, from model training to inference. In this paper, we conduct a review of recent literature concerning Privacy-Preserving Machine Learning (PPML) for healthcare. We primarily focus on privacy-preserving training and inference-as-a-service, and perform a comprehensive review of existing trends, identify challenges, and discuss opportunities for future research directions. The aim of this review is to guide the development of private and efficient ML models in healthcare, with the prospects of translating research efforts into real-world settings.",
+        "authors": [
+          "Alejandro Guerra-Manzanares",
+          "L. Julian Lechuga Lopez",
+          "Michail Maniatakos",
+          "Farah E. Shamout"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2303.15563v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/1905.04749v2",
+        "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+        "abstract": "The proliferation of fake news and its propagation on social media has become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been suggested to detect fake news. However, most of those focused on a specific type of news (such as political) which leads us to the question of dataset-bias of the models used. In this research, we conducted a benchmark study to assess the performance of different applicable machine learning approaches on three different datasets where we accumulated the largest and most diversified one. We explored a number of advanced pre-trained language models for fake news detection along with the traditional and deep learning ones and compared their performances from different aspects for the first time to the best of our knowledge. We find that BERT and similar pre-trained models perform the best for fake news detection, especially with very small dataset. Hence, these models are significantly better option for languages with limited electronic contents, i.e., training data. We also carried out several analysis based on the models' performance, article's topic, article's length, and discussed different lessons learned from them. We believe that this benchmark study will help the research community to explore further and news sites/blogs to select the most appropriate fake news detection method.",
+        "authors": [
+          "Junaed Younus Khan",
+          "Md. Tawkat Islam Khondaker",
+          "Sadia Afroz",
+          "Gias Uddin",
+          "Anindya Iqbal"
+        ],
+        "year": 2019,
+        "url": "http://arxiv.org/abs/1905.04749v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2110.03861v3",
+        "title": "QTN-VQC: An End-to-End Learning framework for Quantum Neural Networks",
+        "abstract": "The advent of noisy intermediate-scale quantum (NISQ) computers raises a crucial challenge to design quantum neural networks for fully quantum learning tasks. To bridge the gap, this work proposes an end-to-end learning framework named QTN-VQC, by introducing a trainable quantum tensor network (QTN) for quantum embedding on a variational quantum circuit (VQC). The architecture of QTN is composed of a parametric tensor-train network for feature extraction and a tensor product encoding for quantum embedding. We highlight the QTN for quantum embedding in terms of two perspectives: (1) we theoretically characterize QTN by analyzing its representation power of input features; (2) QTN enables an end-to-end parametric model pipeline, namely QTN-VQC, from the generation of quantum embedding to the output measurement. Our experiments on the MNIST dataset demonstrate the advantages of QTN for quantum embedding over other quantum embedding approaches.",
+        "authors": [
+          "Jun Qi",
+          "Chao-Han Huck Yang",
+          "Pin-Yu Chen"
+        ],
+        "year": 2021,
+        "url": "http://arxiv.org/abs/2110.03861v3"
+      },
+      {
+        "id": "https://openalex.org/W2559394418",
+        "title": "Quantum machine learning",
+        "abstract": "",
+        "authors": [
+          "Jacob Biamonte",
+          "P\u00e9ter Wittek",
+          "Nicola Pancotti",
+          "Patrick Rebentrost",
+          "Nathan Wiebe",
+          "Seth Lloyd"
+        ],
+        "year": 2017,
+        "url": "https://doi.org/10.1038/nature23474"
+      },
+      {
+        "id": "https://openalex.org/W2792946961",
+        "title": "Quantum Machine Learning in Feature Hilbert Spaces",
+        "abstract": "A basic idea of quantum computing is surprisingly similar to that of kernel methods in machine learning, namely, to efficiently perform computations in an intractably large Hilbert space. In this Letter we explore some theoretical foundations of this link and show how it opens up a new avenue for the design of quantum machine learning algorithms. We interpret the process of encoding inputs in a quantum state as a nonlinear feature map that maps data to quantum Hilbert space. A quantum computer can now analyze the input data in this feature space. Based on this link, we discuss two approaches for building a quantum model for classification. In the first approach, the quantum device estimates inner products of quantum states to compute a classically intractable kernel. The kernel can be fed into any classical kernel method such as a support vector machine. In the second approach, we use a variational quantum circuit as a linear model that classifies data explicitly in Hilbert space. We illustrate these ideas with a feature map based on squeezing in a continuous-variable system, and visualize the working principle with two-dimensional minibenchmark datasets.",
+        "authors": [
+          "Maria Schuld",
+          "Nathan Killoran"
+        ],
+        "year": 2019,
+        "url": "https://doi.org/10.1103/physrevlett.122.040504"
+      },
+      {
+        "id": "https://openalex.org/W2015811642",
+        "title": "An introduction to quantum machine learning",
+        "abstract": "Machine learning algorithms learn a desired input-output relation from examples in order to interpret new inputs. This is important for tasks such as image and speech recognition or strategy optimisation, with growing applications in the IT industry. In the last couple of years, researchers investigated if quantum computing can help to improve classical machine learning algorithms. Ideas range from running computationally costly algorithms or their subroutines efficiently on a quantum computer to the translation of stochastic methods into the language of quantum theory. This contribution gives a systematic overview of the emerging field of quantum machine learning. It presents the approaches as well as technical details in an accessible way, and discusses the potential of a future theory of quantum learning.",
+        "authors": [
+          "Maria Schuld",
+          "Ilya Sinayskiy",
+          "Francesco Petruccione"
+        ],
+        "year": 2014,
+        "url": "https://doi.org/10.1080/00107514.2014.964942"
+      },
+      {
+        "id": "https://openalex.org/W4296126438",
+        "title": "Challenges and opportunities in quantum machine learning",
+        "abstract": "",
+        "authors": [
+          "M. Cerezo",
+          "Guillaume Verdon",
+          "Hsin-Yuan Huang",
+          "\u0141ukasz Cincio",
+          "Patrick J. Coles"
+        ],
+        "year": 2022,
+        "url": "https://doi.org/10.1038/s43588-022-00311-3"
+      },
+      {
+        "id": "https://openalex.org/W3096052452",
+        "title": "Power of data in quantum machine learning",
+        "abstract": "The use of quantum computing for machine learning is among the most exciting prospective applications of quantum technologies. However, machine learning tasks where data is provided can be considerably different than commonly studied computational tasks. In this work, we show that some problems that are classically hard to compute can be easily predicted by classical machines learning from data. Using rigorous prediction error bounds as a foundation, we develop a methodology for assessing potential quantum advantage in learning tasks. The bounds are tight asymptotically and empirically predictive for a wide range of learning models. These constructions explain numerical results showing that with the help of data, classical machine learning models can be competitive with quantum models even if they are tailored to quantum problems. We then propose a projected quantum model that provides a simple and rigorous quantum speed-up for a learning problem in the fault-tolerant regime. For near-term implementations, we demonstrate a significant prediction advantage over some classical models on engineered data sets designed to demonstrate a maximal quantum advantage in one of the largest numerical tests for gate-based quantum machine learning to date, up to 30 qubits.",
+        "authors": [
+          "Hsin-Yuan Huang",
+          "Michael Broughton",
+          "Masoud Mohseni",
+          "Ryan Babbush",
+          "Sergio Boixo",
+          "Hartmut Neven",
+          "Jarrod R. McClean"
+        ],
+        "year": 2021,
+        "url": "https://doi.org/10.1038/s41467-021-22539-9"
+      },
+      {
+        "id": "https://openalex.org/W2736592352",
+        "title": "Quantum machine learning: a classical perspective",
+        "abstract": "Recently, increased computational power and data availability, as well as algorithmic advances, have led machine learning (ML) techniques to impressive results in regression, classification, data generation and reinforcement learning tasks. Despite these successes, the proximity to the physical limits of chip fabrication alongside the increasing size of datasets is motivating a growing number of researchers to explore the possibility of harnessing the power of quantum computation to speed up classical ML algorithms. Here we review the literature in quantum ML and discuss perspectives for a mixed readership of classical ML and quantum computation experts. Particular emphasis will be placed on clarifying the limitations of quantum algorithms, how they compare with their best classical counterparts and why quantum resources are expected to provide advantages for learning problems. Learning in the presence of noise and certain computationally hard problems in ML are identified as promising directions for the field. Practical questions, such as how to upload classical data into quantum form, will also be addressed.",
+        "authors": [
+          "Carlo Ciliberto",
+          "Mark Herbster",
+          "Alessandro Davide Ialongo",
+          "Massimiliano Pontil",
+          "Andrea Rocchetto",
+          "Simone Severini",
+          "Leonard Wossnig"
+        ],
+        "year": 2018,
+        "url": "https://doi.org/10.1098/rspa.2017.0551"
+      },
+      {
+        "id": "https://openalex.org/W2929612105",
+        "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+        "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emerging networks may finally trigger the deployment of some interesting new technologies, such as large intelligent surfaces, electromagnetic-orbital angular momentum, visible light communications, and cell-free communications, to name a few. Our vision for 6G is a massively connected complex network capable of rapidly responding to the users' service calls through real-time learning of the network state as described by the network edge (e.g., base-station locations and cache contents), air interface (e.g., radio spectrum and propagation channel), and the user-side (e.g., battery-life and locations). The multi-state, multi-dimensional nature of the network state, requiring the real-time knowledge, can be viewed as a quantum uncertainty problem. In this regard, the emerging paradigms of machine learning (ML), quantum computing (QC), and quantum ML (QML) and their synergies with communication networks can be considered as core 6G enablers. Considering these potentials, starting with the 5G target services and enabling technologies, we provide a comprehensive review of the related state of the art in the domains of ML (including deep learning), QC, and QML and identify their potential benefits, issues, and use cases for their applications in the B5G networks. Subsequently, we propose a novel QC-assisted and QML-based framework for 6G communication networks while articulating its challenges and potential enabling technologies at the network infrastructure, network edge, air interface, and user end. Finally, some promising future research directions for the quantum- and QML-assisted B5G networks are identified and discussed.",
+        "authors": [
+          "Syed Junaid Nawaz",
+          "Shree Krishna Sharma",
+          "Shurjeel Wyne",
+          "Mohammad Patwary",
+          "Md Asaduzzaman"
+        ],
+        "year": 2019,
+        "url": "https://doi.org/10.1109/access.2019.2909490"
+      },
+      {
+        "id": "https://openalex.org/W3211718387",
+        "title": "Generalization in quantum machine learning from few training data",
+        "abstract": "Modern quantum machine learning (QML) methods involve variationally optimizing a parameterized quantum circuit on a training data set, and subsequently making predictions on a testing data set (i.e., generalizing). In this work, we provide a comprehensive study of generalization performance in QML after training on a limited number N of training data points. We show that the generalization error of a quantum machine learning model with T trainable gates scales at worst as [Formula: see text]. When only K \u226a T gates have undergone substantial change in the optimization process, we prove that the generalization error improves to [Formula: see text]. Our results imply that the compiling of unitaries into a polynomial number of native gates, a crucial application for the quantum computing industry that typically uses exponential-size training data, can be sped up significantly. We also show that classification of quantum states across a phase transition with a quantum convolutional neural network requires only a very small training data set. Other potential applications include learning quantum error correcting codes or quantum dynamical simulation. Our work injects new hope into the field of QML, as good generalization is guaranteed from few training data.",
+        "authors": [
+          "Matthias C. Caro",
+          "Hsin-Yuan Huang",
+          "M. Cerezo",
+          "Kunal Sharma",
+          "Andrew Sornborger",
+          "\u0141ukasz Cincio",
+          "Patrick J. Coles"
+        ],
+        "year": 2022,
+        "url": "https://doi.org/10.1038/s41467-022-32550-3"
+      },
+      {
+        "id": "https://openalex.org/W3075559820",
+        "title": "Effect of data encoding on the expressive power of variational quantum-machine-learning models",
+        "abstract": "Quantum computers can be used for supervised learning by treating parametrized quantum circuits as models that map data inputs to predictions. While a lot of work has been done to investigate the practical implications of this approach, many important theoretical properties of these models remain unknown. Here, we investigate how the strategy with which data are encoded into the model influences the expressive power of parametrized quantum circuits as function approximators. We show that one can naturally write a quantum model as a partial Fourier series in the data, where the accessible frequencies are determined by the nature of the data-encoding gates in the circuit. By repeating simple data-encoding gates multiple times, quantum models can access increasingly rich frequency spectra. We show that there exist quantum models which can realize all possible sets of Fourier coefficients, and therefore, if the accessible frequency spectrum is asymptotically rich enough, such models are universal function approximators.",
+        "authors": [
+          "Maria Schuld",
+          "Ryan Sweke",
+          "Johannes Jakob Meyer"
+        ],
+        "year": 2021,
+        "url": "https://doi.org/10.1103/physreva.103.032430"
+      }
+    ],
+    "timestamp": "2026-06-22T19:52:10.050796+00:00"
+  },
+  "1cbe014dbcb1f44751d7d41627859e98": {
+    "query": "design for mechanical engineering",
+    "results": [
+      {
+        "id": "b83f52eae79e64b39452899d3c68f31a",
+        "title": "Robotics Technology in Mental Health Care",
+        "year": 2015,
+        "authors": [
+          "Laurel D. Riek"
+        ],
+        "url": "http://arxiv.org/abs/1511.02281v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "672086283e4501f10beabb4bda178244",
+        "title": "Patients, Primary Care, and Policy: Simulation Modeling for Health Care Decision Support",
+        "year": 2019,
+        "authors": [
+          "Martin Comis",
+          "Catherine Cleophas",
+          "Christina B\u00fcsing"
+        ],
+        "url": "http://arxiv.org/abs/1910.11027v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "cd253911f61156d983c6dc3c8eae9532",
+        "title": "Quantum machine learning",
+        "year": 2017,
+        "authors": [
+          "Jacob Biamonte",
+          "P\u00e9ter Wittek",
+          "Nicola Pancotti",
+          "Patrick Rebentrost",
+          "Nathan Wiebe",
+          "Seth Lloyd"
+        ],
+        "url": "https://doi.org/10.1038/nature23474",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "925e90205c3d3158d5f4ca77a9d1f297",
+        "title": "Deep Learning for Healthcare",
+        "year": 2024,
+        "authors": [
+          "Alice Smith"
+        ],
+        "url": "https://example.com/001",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "57aa4eba926f5e625f66e139def4844d",
+        "title": "Federated Learning for Healthcare Domain - Pipeline, Applications and Challenges",
+        "year": 2022,
+        "authors": [
+          "Madhura Joshi",
+          "Ankit Pal",
+          "Malaikannan Sankarasubbu"
+        ],
+        "url": "http://arxiv.org/abs/2211.07893v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "1f33e014b9fb99ac4db2c2b562976215",
+        "title": "Quantum Machine Learning in Feature Hilbert Spaces",
+        "year": 2019,
+        "authors": [
+          "Maria Schuld",
+          "Nathan Killoran"
+        ],
+        "url": "https://doi.org/10.1103/physrevlett.122.040504",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "7899eb71d0f32cbe13bb74098a85ce07",
+        "title": "HAPI-FHIR Server Implementation to Enhancing Interoperability among Primary Care Health Information Systems in Sri Lanka: Review of the Technical Use Case",
+        "year": 2024,
+        "authors": [
+          "Prabath Jayathissa",
+          "Roshan Hewapathirana"
+        ],
+        "url": "http://arxiv.org/abs/2402.02838v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "6bd5fab6c282419428c8fb60a4ec4a3c",
+        "title": "Patient-centred access to health care: conceptualising access at the interface of health systems and populations",
+        "year": 2013,
+        "authors": [
+          "Jean\u2010Fr\u00e9d\u00e9ric L\u00e9vesque",
+          "Mark Harris",
+          "Grant Russell"
+        ],
+        "url": "https://doi.org/10.1186/1475-9276-12-18",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "7e360e5c268a863250e0dc040c092351",
+        "title": "Quantum Computing in Biology",
+        "year": 2023,
+        "authors": [
+          "Bob Jones"
+        ],
+        "url": "https://example.com/002",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "72c23ae424a1df2bcd242b7c19e19055",
+        "title": "The Digital Transformation in Health: How AI Can Improve the Performance of Health Systems",
+        "year": 2024,
+        "authors": [
+          "\u00c1frica Peri\u00e1\u00f1ez",
+          "Ana Fern\u00e1ndez del R\u00edo",
+          "Ivan Nazarov",
+          "Enric Jan\u00e9",
+          "Moiz Hassan",
+          "Aditya Rastogi",
+          "Dexian Tang"
+        ],
+        "url": "http://arxiv.org/abs/2409.16098v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "fa11b43d7658af046f59c3208d42b065",
+        "title": "Quantum machine learning: a classical perspective",
+        "year": 2018,
+        "authors": [
+          "Carlo Ciliberto",
+          "Mark Herbster",
+          "Alessandro Davide Ialongo",
+          "Massimiliano Pontil",
+          "Andrea Rocchetto",
+          "Simone Severini",
+          "Leonard Wossnig"
+        ],
+        "url": "https://doi.org/10.1098/rspa.2017.0551",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/2406.04710v2",
+        "title": "Morescient GAI for Software Engineering (Extended Version)",
+        "abstract": "The ability of Generative AI (GAI) technology to automatically check, synthesize and modify software engineering artifacts promises to revolutionize all aspects of software engineering. Using GAI for software engineering tasks is consequently one of the most rapidly expanding fields of software engineering research, with over a hundred LLM-based code models having been published since 2021. However, the overwhelming majority of existing code models share a major weakness - they are exclusively trained on the syntactic facet of software, significantly lowering their trustworthiness in tasks dependent on software semantics. To address this problem, a new class of \"Morescient\" GAI is needed that is \"aware\" of (i.e., trained on) both the semantic and static facets of software. This, in turn, will require a new generation of software observation platforms capable of generating large quantities of execution observations in a structured and readily analyzable way. In this paper, we present a vision and roadmap for how such \"Morescient\" GAI models can be engineered, evolved and disseminated according to the principles of open science.",
+        "authors": [
+          "Marcus Kessel",
+          "Colin Atkinson"
+        ],
+        "year": 2024,
+        "url": "http://arxiv.org/abs/2406.04710v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2112.05549v1",
+        "title": "Combining Design Thinking and Software Requirements Engineering to create Human-centered Software-intensive Systems",
+        "abstract": "Effective Requirements Engineering is a crucial activity in softwareintensive development projects. The human-centric working mode of Design Thinking is considered a powerful way to complement such activities when designing innovative systems. Research has already made great strides to illustrate the benefits of using Design Thinking for Requirements Engineering. However, it has remained mostly unclear how to actually realize a combination of both. In this chapter, we contribute an artifact-based model that integrates Design Thinking and Requirements Engineering for innovative software-intensive systems. Drawing from our research and project experiences, we suggest three strategies for tailoring and integrating Design Thinking and Requirements Engineering with complementary synergies.",
+        "authors": [
+          "Jennifer Hehn",
+          "Daniel Mendez"
+        ],
+        "year": 2021,
+        "url": "http://arxiv.org/abs/2112.05549v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2305.07082v2",
+        "title": "Model Consistency for Mechanical Design: Bridging Lumped and Distributed Parameter Models with A Priori Guarantees",
+        "abstract": "Engineering design often involves representation in at least two levels of abstraction: the system-level, represented by lumped parameter models (LPMs), and the geometric-level, represented by distributed parameter models (DPMs). Functional design innovation commonly occurs at the system-level, followed by a geometric-level realization of functional LPM components. However, comparing these two levels in terms of behavioral outcomes can be challenging and time-consuming, leading to delays in design translations between system and mechanical engineers. In this paper, we propose a simulation-free scheme that compares LPMs and spatially-discretized DPMs based on their model specifications and behaviors of interest, regardless of modeling languages and numerical methods. We adopt a model order reduction (MOR) technique that a priori guarantees accuracy, stability, and convergence to improve the computational efficiency of large-scale models. Our approach is demonstrated through the model consistency analysis of several mechanical designs, showing its validity, efficiency, and generality. Our method provides a systematic way to compare system-level and geometric-level designs, improving reliability and facilitating design translation.",
+        "authors": [
+          "Randi Wang",
+          "Vadim Shapiro",
+          "Morad Behandish"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2305.07082v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.20219v1",
+        "title": "A Design Framework for Compositional Hierarchical Mechanical Metamaterials via a Qualitative Unit-Cell Library",
+        "abstract": "Hierarchically designed mechanical metamaterials involve nested levels of structural organization, mimicking natural structures (such as bones, wood, and bird feathers) to create advanced functional materials. Compositional hierarchy, a specific type of hierarchical strategy that involves the methodical assembly of discrete building blocks, offers unique advantages in engineering design due to its modular nature. This involves proper selection and spatial arrangements of distinct microstructures, as a result of which the desired macro-scale mechanical behavior can be achieved. Towards the design of such compositional hierarchical metamaterials, this paper presents a two-step design framework. First, material optimization of the design domain is performed using a parameterized elasticity matrix to obtain optimal conceptual designs. Second, building-block microstructure geometries are selected from a qualitative library and subjected to shape-size refinement to satisfy the desired kinematic or stiffness requirements. To construct the qualitative library, a novel parametrization scheme is initially introduced, which categorizes the planar orthotropic elasticity matrix into four distinct classes. Utilizing a kinetostatic load flow visualization technique, the candidate microstructure geometries are then populated within these four classes. The framework is validated for the design of a cantilever beam with a specified lateral stiffness requirement and the design of planar sheets that exhibit specified target deformation patterns. Thus, the present work provides a systematic and physically intuitive methodology applicable to arbitrary kinematic deformation and stiffness requirements.",
+        "authors": [
+          "Shammo Dutta",
+          "Girish Krishnan",
+          "Sree Kalyan Patiballa"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2605.20219v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/1809.10555v1",
+        "title": "Conceptual design study for heat exhaust management in the ARC fusion pilot plant",
+        "abstract": "The ARC pilot plant conceptual design study has been extended beyond its initial scope [B. N. Sorbom et al., FED 100 (2015) 378] to explore options for managing ~525 MW of fusion power generated in a compact, high field (B_0 = 9.2 T) tokamak that is approximately the size of JET (R_0 = 3.3 m). Taking advantage of ARC's novel design - demountable high temperature superconductor toroidal field (TF) magnets, poloidal magnetic field coils located inside the TF, and vacuum vessel (VV) immersed in molten salt FLiBe blanket - this follow-on study has identified innovative and potentially robust power exhaust management solutions.",
+        "authors": [
+          "A. Q. Kuang",
+          "N. M. Cao",
+          "A. J. Creely",
+          "C. A. Dennett",
+          "J. Hecla",
+          "B. LaBombard",
+          "R. A. Tinguely",
+          "E. A. Tolman",
+          "H. Hoffman",
+          "M. Major",
+          "J. Ruiz Ruiz",
+          "D. Brunner",
+          "P. Grover",
+          "C. Laughman",
+          "B. N. Sorbom",
+          "D. G. Whyte"
+        ],
+        "year": 2018,
+        "url": "http://arxiv.org/abs/1809.10555v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/cs/0306108v1",
+        "title": "Web Engineering",
+        "abstract": "Web Engineering is the application of systematic, disciplined and quantifiable approaches to development, operation, and maintenance of Web-based applications. It is both a pro-active approach and a growing collection of theoretical and empirical research in Web application development. This paper gives an overview of Web Engineering by addressing the questions: a) why is it needed? b) what is its domain of operation? c) how does it help and what should it do to improve Web application development? and d) how should it be incorporated in education and training? The paper discusses the significant differences that exist between Web applications and conventional software, the taxonomy of Web applications, the progress made so far and the research issues and experience of creating a specialisation at the master's level. The paper reaches a conclusion that Web Engineering at this stage is a moving target since Web technologies are constantly evolving, making new types of applications possible, which in turn may require innovations in how they are built, deployed and maintained.",
+        "authors": [
+          "Yogesh Deshpande",
+          "San Murugesan",
+          "Athula Ginige",
+          "Steve Hansen",
+          "Daniel Schwabe",
+          "Martin Gaedke",
+          "Bebo White"
+        ],
+        "year": 2003,
+        "url": "http://arxiv.org/abs/cs/0306108v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2601.13123v1",
+        "title": "Aspects of Mechanical Engineering for Undulators",
+        "abstract": "This paper gives an overview about aspects of mechanical engineering of undulators. It is based mainly on two types that are used in the SwissFEL facility. The U15 Undulator is an example of an in-vacuum type and the UE38 is an APPLE-X type. It describes the frame, the adjustment of the magnets with flexible keepers and the adjustment of the whole device with eccentric movers.",
+        "authors": [
+          "Haimo Joehri"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2601.13123v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/1707.03869v3",
+        "title": "Cognitive Biases in Software Engineering: A Systematic Mapping Study",
+        "abstract": "One source of software project challenges and failures is the systematic errors introduced by human cognitive biases. Although extensively explored in cognitive psychology, investigations concerning cognitive biases have only recently gained popularity in software engineering (SE) research. This paper therefore systematically maps, aggregates and synthesizes the literature on cognitive biases in software engineering to generate a comprehensive body of knowledge, understand state of the art research and provide guidelines for future research and practise. Focusing on bias antecedents, effects and mitigation techniques, we identified 65 articles, which investigate 37 cognitive biases, published between 1990 and 2016. Despite strong and increasing interest, the results reveal a scarcity of research on mitigation techniques and poor theoretical foundations in understanding and interpreting cognitive biases. Although bias-related research has generated many new insights in the software engineering community, specific bias mitigation techniques are still needed for software professionals to overcome the deleterious effects of cognitive biases on their work.",
+        "authors": [
+          "Rahul Mohanani",
+          "Iflaah Salman",
+          "Burak Turhan",
+          "Pilar Rodriguez",
+          "Paul Ralph"
+        ],
+        "year": 2017,
+        "url": "http://arxiv.org/abs/1707.03869v3"
+      },
+      {
+        "id": "http://arxiv.org/abs/2107.13724v2",
+        "title": "Enumeration and Identification of Unique 3D Spatial Topologies of Interconnected Engineering Systems Using Spatial Graphs",
+        "abstract": "Systematic enumeration and identification of unique 3D spatial topologies of complex engineering systems (such as automotive cooling systems, electric power trains, satellites, and aero-engines) are essential to navigation of these expansive design spaces with the goal of identifying new spatial configurations that can satisfy challenging system requirements. However, efficient navigation through discrete 3D spatial topology (ST) options is a very challenging problem due to its combinatorial nature and can quickly exceed human cognitive abilities at even moderate complexity levels. This article presents a new, efficient, and scalable design framework that leverages mathematical spatial graph theory to represent, enumerate, and identify distinctive 3D topological classes for a generic 3D engineering system, given its system architecture (SA) -- its components and their interconnections. First, spatial graph diagrams (SGDs) are generated for a given SA from zero to a specified maximum number of interconnect crossings. Then, corresponding Yamada polynomials for all the planar SGDs are generated. SGDs are categorized into topological classes, each of which shares a unique Yamada polynomial. Finally, within each topological class, 3D geometric models are generated using the spatial graph diagrams (SGDs) having different numbers of interconnect crossings. Selected case studies are presented to illustrate the different features of our proposed framework, including an industrial engineering design application: ST enumeration of a 3D automotive fuel cell cooling system (AFCS). Design guidelines are also provided for practicing engineers to aid the application of this framework to different types of real-world problems such as configuration design and spatial packaging optimization.",
+        "authors": [
+          "Satya R. T. Peddada",
+          "Nathan M. Dunfield",
+          "Lawrence E. Zeidner",
+          "Zane R. Givans",
+          "Kai A. James",
+          "James T. Allison"
+        ],
+        "year": 2021,
+        "url": "http://arxiv.org/abs/2107.13724v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2601.11302v1",
+        "title": "Introduction to the Mechanical Design of Accelerators",
+        "abstract": "Particle accelerators represent some of the most sophisticated engineering achievements of our time. Their construction requires a unique combination of physics insight and mechanical engineering expertise. The aim of this paper is to provide young mechanical engineers with an introduction to the principles, methods, and challenges associated with the mechanical design of accelerators. The lecture upon which this proceeding is based emphasized the translation of functional requirements into engineering specifications, the critical importance of robust and reliable design, and the need for precisely defined drawings supported by international standards such as ISO GPS and GD&T. Through illustrative examples and a practical case inspired by CERN's existing components, the paper underlines the necessity of anticipating lifecycle demands, ensuring manufacturability, and safeguarding operational reliability. Particular emphasis is placed on the contractual value of 2D drawings, the practical application of functional dimensioning, and tolerance chain analysis. By reviewing common pitfalls and exploring best practices, the paper seeks to orient engineers towards design choices that balance cost, reliability, and performance.",
+        "authors": [
+          "Marc Timmins"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2601.11302v1"
+      },
+      {
+        "id": "https://openalex.org/W1597776365",
+        "title": "Mechanical engineering design",
+        "abstract": "Part I Basics1 Introduction2 Statistical Considerations3 Materials4 Load and Stress Analysis5 Deflection and StiffnessPart II Failure Prevention6 Failures Resulting from Static Loading7 Fatigue Failure Resulting from Variable LoadingPart III Design of Mechanical Elements8 Screws, Fasteners, and the Design of Nonpermanent Joints9 Welding, Brazing, Bonding, and the Design of Permanent Joints10 Mechanical Springs11 Rolling-Contact Bearings12 Lubrication and Journal Bearings13 Gears - General14 Spur and Helical Gears15 Bevel and Worm Gears16 Clutches, Brakes, Couplings and Flywheels17 Flexible Mechanical Elements18 Shafts and AxlesA Appendix A Useful TablesB Appendix B Solutions to Selected ProblemsIndex",
+        "authors": [
+          "Joseph Edward Shigley"
+        ],
+        "year": 2001,
+        "url": null
+      },
+      {
+        "id": "https://openalex.org/W1578829123",
+        "title": "Shigley's Mechanical Engineering Design",
+        "abstract": "Part 1: Basics Chapter 1: Introduction to Mechanical Engineering Design Chapter 2: Materials Chapter 3: Load and Stress Analysis Chapter 4: Deflection and Stiffness Part II: Failure Prevention Chapter 5: Failures Resulting from Static Loading Chapter 6: Fatigue Failure Resulting from Variable Loading Part III: Design of Mechanical Elements Chapter 7: Shafts and Shaft Components Chapter 8: Screws, Fasteners, and the Design of Nonpermanent Joints Chapter 9: Welding, Bonding, and the Design of Permanent Joints Chapter 10: Mechanical Springs Chapter 11: Rolling-Contact Bearings Chapter 12: Lubrication and Journal Bearings Chapter 13: Gears - General Chapter 14: Spur and Helical Gears Chapter 15: Bevel and Worm Gears Chapter 16: Clutches, Brakes, Couplings and Flywheels Chapter 17: Flexible Mechanical Elements Chapter 18: Power Transmission Case Study Part IV: Analysis Tools Chapter 19: Finite Element Analysis Chapter 20: Statistical Considerations Appendices A: Useful Tables B: Answers to Selected Problems",
+        "authors": [
+          "Richard G. Budynas",
+          "J. Keith Nisbett"
+        ],
+        "year": 1972,
+        "url": null
+      },
+      {
+        "id": "https://openalex.org/W2058085399",
+        "title": "Nanostructured High\u2010Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes",
+        "abstract": "A new approach for the design of alloys is presented in this study. These \u201chigh\u2010entropy alloys\u201d with multi\u2010principal elements were synthesized using well\u2010developed processing technologies. Preliminary results demonstrate examples of the alloys with simple crystal structures, nanostructures, and promising mechanical properties. This approach may be opening a new era in materials science and engineering.",
+        "authors": [
+          "J.\u2010W. Yeh",
+          "Swe-Kai Chen",
+          "Sung\u2010Jan Lin",
+          "Jie Gan",
+          "T.S. Chin",
+          "Tao-Tsung Shun",
+          "Chun-Huei Tsau",
+          "Shu\u2010Jen Chang"
+        ],
+        "year": 2004,
+        "url": "https://doi.org/10.1002/adem.200300567"
+      },
+      {
+        "id": "https://openalex.org/W2113042424",
+        "title": "Porous scaffold design for tissue engineering",
+        "abstract": "",
+        "authors": [
+          "Scott J. Hollister"
+        ],
+        "year": 2005,
+        "url": "https://doi.org/10.1038/nmat1421"
+      },
+      {
+        "id": "https://openalex.org/W1999284878",
+        "title": "Teaching\u2013learning-based optimization: A novel method for constrained mechanical design optimization problems",
+        "abstract": "",
+        "authors": [
+          "R. Venkata Rao",
+          "Vimal Savsani",
+          "D. P. Vakharia"
+        ],
+        "year": 2011,
+        "url": "https://doi.org/10.1016/j.cad.2010.12.015"
+      },
+      {
+        "id": "https://openalex.org/W2032205876",
+        "title": "Materials Selection in Mechanical Design",
+        "abstract": "",
+        "authors": [
+          "Ashby, Michael F. 1935-"
+        ],
+        "year": 2011,
+        "url": "https://doi.org/10.1016/c2009-0-25539-5"
+      },
+      {
+        "id": "https://openalex.org/W1605058418",
+        "title": "Materials Science and Engineering: An Introduction",
+        "abstract": "List of Symbols.Introduction.Atomic Structure and Interatomic Bonding.The Structure of Crystalline Solids.Imperfections in Solids.Diffusion.Mechanical Properties of Metals.Dislocations and Strengthening Mechanisms.Failure.Phase Diagrams.Phase Transformations in Metals: Development of Microstructure and Alteration of Mechanical Properties.Thermal Processing of Metal Alloys.Metals Alloys.Structures and Properties of Ceramics.Applications and Processing of Ceramics.Polymer Structures.Characteristics, Applications, and Processing of Polymers.Composites.Corrosion and Degradation of Materials.Electrical Properties.Thermal Properties.Magnetic Properties.Optical Properties.Materials Selection and Design Considerations.Economic, Environmental, and Societal Issues in Materials Science and Engineering.Appendix A: The International System of Units (SI).Appendix B: Properties of Selected Engineering Materials.Appendix C: Costs and Relative Costs for Selected Engineering Materials.Appendix D: Mer Structures for Common Polymers.Appendix E: Glass Transition and Melting Temperatues for Common Polymeric Materials.Glossary.Answers to Selected Problems.Index.",
+        "authors": [
+          "William D. Callister"
+        ],
+        "year": 1985,
+        "url": null
+      }
+    ],
+    "timestamp": "2026-06-22T20:34:03.821532+00:00"
+  },
+  "6dfb464acf9c9daf3f27e801bc57ed65": {
+    "query": "human psychology",
+    "results": [
+      {
+        "id": "170589711b1466695fdc2b74f7e6586c",
+        "title": "Robotics Technology in Mental Health Care",
+        "year": 2015,
+        "authors": [
+          "Laurel D. Riek"
+        ],
+        "url": "http://arxiv.org/abs/1511.02281v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "605eaf743aae159a7f12aaaa1bdb3879",
+        "title": "Web Engineering",
+        "year": 2003,
+        "authors": [
+          "Yogesh Deshpande",
+          "San Murugesan",
+          "Athula Ginige",
+          "Steve Hansen",
+          "Daniel Schwabe",
+          "Martin Gaedke",
+          "Bebo White"
+        ],
+        "url": "http://arxiv.org/abs/cs/0306108v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "5c747034976c016ec29ac64fb2c1b731",
+        "title": "How Good Is NLP? A Sober Look at NLP Tasks through the Lens of Social Impact",
+        "year": 2021,
+        "authors": [
+          "Zhijing Jin",
+          "Geeticka Chauhan",
+          "Brian Tse",
+          "Mrinmaya Sachan",
+          "Rada Mihalcea"
+        ],
+        "url": "http://arxiv.org/abs/2106.02359v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "a4877426dc6302605b60b6907530dbdc",
+        "title": "The 1996 Guide for the Care and Use of Laboratory Animals",
+        "year": 1997,
+        "authors": [
+          "J. Derrell Clark",
+          "Gerald F. Gebhart",
+          "Janet C. Gonder",
+          "Michale E. Keeling",
+          "Dennis F. Kohn"
+        ],
+        "url": "https://doi.org/10.1093/ilar.38.1.41",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "16cd97a4ddf8b2d7bbe28fbad24656a1",
+        "title": "Social Biases in NLP Models as Barriers for Persons with Disabilities",
+        "year": 2020,
+        "authors": [
+          "Ben Hutchinson",
+          "Vinodkumar Prabhakaran",
+          "Emily Denton",
+          "Kellie Webster",
+          "Yu Zhong",
+          "Stephen Denuyl"
+        ],
+        "url": "https://doi.org/10.18653/v1/2020.acl-main.487",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "fb8a786e1f9c208e764bfe61e59c64b2",
+        "title": "Cognitive Biases in Software Engineering: A Systematic Mapping Study",
+        "year": 2017,
+        "authors": [
+          "Rahul Mohanani",
+          "Iflaah Salman",
+          "Burak Turhan",
+          "Pilar Rodriguez",
+          "Paul Ralph"
+        ],
+        "url": "http://arxiv.org/abs/1707.03869v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "d7c84cb0a50b3c61ee32f1370d9c2b43",
+        "title": "A dissemination workshop for introducing young Italian students to NLP",
+        "year": 2021,
+        "authors": [
+          "Lucio Messina",
+          "Lucia Busso",
+          "Claudia Roberta Combei",
+          "Ludovica Pannitto",
+          "Alessio Miaschi",
+          "Gabriele Sarti",
+          "Malvina Nissim"
+        ],
+        "url": "http://arxiv.org/abs/2104.12405v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "7cf99f92bce026108064de825bdab760",
+        "title": "Teaching NLP with Bracelets and Restaurant Menus: An Interactive Workshop for Italian Students",
+        "year": 2021,
+        "authors": [
+          "Ludovica Pannitto",
+          "Lucia Busso",
+          "Claudia Roberta Combei",
+          "Lucio Messina",
+          "Alessio Miaschi",
+          "Gabriele Sarti",
+          "Malvina Nissim"
+        ],
+        "url": "http://arxiv.org/abs/2104.12422v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "cd253911f61156d983c6dc3c8eae9532",
+        "title": "Quantum machine learning",
+        "year": 2017,
+        "authors": [
+          "Jacob Biamonte",
+          "P\u00e9ter Wittek",
+          "Nicola Pancotti",
+          "Patrick Rebentrost",
+          "Nathan Wiebe",
+          "Seth Lloyd"
+        ],
+        "url": "https://doi.org/10.1038/nature23474",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "7e360e5c268a863250e0dc040c092351",
+        "title": "Quantum Computing in Biology",
+        "year": 2023,
+        "authors": [
+          "Bob Jones"
+        ],
+        "url": "https://example.com/002",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "014807c308e77cbd5885ee50333c8d68",
+        "title": "The Digital Transformation in Health: How AI Can Improve the Performance of Health Systems",
+        "year": 2024,
+        "authors": [
+          "\u00c1frica Peri\u00e1\u00f1ez",
+          "Ana Fern\u00e1ndez del R\u00edo",
+          "Ivan Nazarov",
+          "Enric Jan\u00e9",
+          "Moiz Hassan",
+          "Aditya Rastogi",
+          "Dexian Tang"
+        ],
+        "url": "http://arxiv.org/abs/2409.16098v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/2202.04977v3",
+        "title": "Needs-aware Artificial Intelligence: AI that 'serves [human] needs'",
+        "abstract": "By defining the current limits (and thereby the frontiers), many boundaries are shaping, and will continue to shape, the future of Artificial Intelligence (AI). We push on these boundaries in order to make further progress into what were yesterday's frontiers. They are both pliable and resilient - always creating new boundaries of what AI can (or should) achieve. Among these are technical boundaries (such as processing capacity), psychological boundaries (such as human trust in AI systems), ethical boundaries (such as with AI weapons), and conceptual boundaries (such as the AI people can imagine). It is within this final category while it can play a fundamental role in all other boundaries} that we find the construct of needs and the limitations that our current concept of need places on the future AI.",
+        "authors": [
+          "Ryan Watkins",
+          "Soheil Human"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2202.04977v3"
+      },
+      {
+        "id": "http://arxiv.org/abs/2504.14689v1",
+        "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+        "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+        "authors": [
+          "Katelyn Xiaoying Mei",
+          "Nic Weber"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2504.14689v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2209.09724v1",
+        "title": "Advanced Data Protection Control (ADPC): An Interdisciplinary Overview",
+        "abstract": "The Advanced Data Protection Control (ADPC) is a technical specification - and a set of sociotechnical mechanisms surrounding it - that can change the current practice of Internet-based personal data protection and consenting by providing novel and standardized means for the communication of privacy and consenting data, meta-data, information, requests, preferences, and decisions. The ADPC supports humans in practicing their rights to privacy and agency by giving them more human-centric control over the processing of their personal data and consent. It helps the data controllers to improve their users' experiences and provides them with easy-to-adopt means to comply with the relevant legal and ethical requirements and expectations.",
+        "authors": [
+          "Soheil Human"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2209.09724v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/1904.03285v4",
+        "title": "Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval",
+        "abstract": "While there have been many proposals on making AI algorithms explainable, few have attempted to evaluate the impact of AI-generated explanations on human performance in conducting human-AI collaborative tasks. To bridge the gap, we propose a Twenty-Questions style collaborative image retrieval game, Explanation-assisted Guess Which (ExAG), as a method of evaluating the efficacy of explanations (visual evidence or textual justification) in the context of Visual Question Answering (VQA). In our proposed ExAG, a human user needs to guess a secret image picked by the VQA agent by asking natural language questions to it. We show that overall, when AI explains its answers, users succeed more often in guessing the secret image correctly. Notably, a few correct explanations can readily improve human performance when VQA answers are mostly incorrect as compared to no-explanation games. Furthermore, we also show that while explanations rated as \"helpful\" significantly improve human performance, \"incorrect\" and \"unhelpful\" explanations can degrade performance as compared to no-explanation games. Our experiments, therefore, demonstrate that ExAG is an effective means to evaluate the efficacy of AI-generated explanations on a human-AI collaborative task.",
+        "authors": [
+          "Arijit Ray",
+          "Yi Yao",
+          "Rakesh Kumar",
+          "Ajay Divakaran",
+          "Giedrius Burachas"
+        ],
+        "year": 2019,
+        "url": "http://arxiv.org/abs/1904.03285v4"
+      },
+      {
+        "id": "http://arxiv.org/abs/2208.12946v2",
+        "title": "Nondistributivity of human logic and violation of response replicability effect in cognitive psychology",
+        "abstract": "The aim of this paper is to promote quantum logic as one of the basic tools for analyzing human reasoning. We compare it with classical (Boolean) logic and highlight the role of violation of the distributive law for conjunction and disjunction. It is well known that nondistributivity is equivalent to incompatibility of logical variables -- the impossibility to assign jointly the two-valued truth values to these variables. A natural question arises as to whether quantum logical nondistributivity in human logic can be tested experimentally. We show that testing the response replicability effect (RRE) in cognitive psychology is equivalent to testing nondistributivity -- under the prevailing conjecture that the mental state update generated by observation is described as orthogonal projection of the mental state vector (the projective update conjecture of Wang and Busemeyer). A simple test of RRE is suggested. In contrast to the previous works in quantum-like modeling, we proceed in the state-dependent framework; in particular, distributivity, compatibility, and RRE are considered in a fixed mental state. In this framework, we improve the previous result on the impossibility to combine question order and response replicability effects by using (von Neumann-L\u00fcders) projective measurements.",
+        "authors": [
+          "Masanao Ozawa",
+          "Andrei Khrennikov"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2208.12946v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2603.12895v1",
+        "title": "Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts",
+        "abstract": "Integrating Large Language Models (LLMs) into business process management tools promises to democratize Business Process Model and Notation (BPMN) modeling for non-experts. While automated frameworks assess syntactic and semantic quality, they miss human factors like trust, usability, and professional alignment. We conducted a mixed-methods evaluation of our proposed solution, an LLM-powered BPMN copilot, with five process modeling experts using focus groups and standardized questionnaires. Our findings reveal a critical tension between acceptable perceived usability (mean CUQ score: 67.2/100) and notably lower trust (mean score: 48.8\\%), with reliability rated as the most critical concern (M=1.8/5). Furthermore, we identified output-quality issues, prompting difficulties, and a need for the LLM to ask more in-depth clarifying questions about the process. We envision five use cases ranging from domain-expert support to enterprise quality assurance. We demonstrate the necessity of human-centered evaluation complementing automated benchmarking for LLM modeling agents.",
+        "authors": [
+          "Chantale Lauer",
+          "Peter Pfeiffer",
+          "Nijat Mehdiyev"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2603.12895v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2109.09092v3",
+        "title": "Wellbeing supportive design -- Research-based guidelines for supporting psychological wellbeing in user experience",
+        "abstract": "While human beings have a right to digital experiences that support, rather than diminish, their psychological wellbeing, technology designers lack research-based practices for ensuring psychological needs are met. To help address this gap, we draw on findings from over 30 years of research in psychology (specifically, self-determination theory) that has identified contextual factors shown to support psychological wellbeing. We translate these findings into a list of 15 heuristics and 30 design strategies to provide technology makers with theoretically grounded, research-based, and actionable ways to support wellbeing in user experience.",
+        "authors": [
+          "Dorian Peters"
+        ],
+        "year": 2021,
+        "url": "http://arxiv.org/abs/2109.09092v3"
+      },
+      {
+        "id": "http://arxiv.org/abs/1711.01767v1",
+        "title": "Kurt Lewin, psychological constructs and sources of brain cognitive activity",
+        "abstract": "Understanding mind-brain-environment relations is one of the key topics in psychology. Kurt Lewin, inspired by theoretical physics, tried to establish topological and vector psychology analyzing patterns of interaction between the individual and her/his environment. The time is ripe to reformulate his ambitious goals, searching for ways to interpret objectively measured brain processes in terms of suitable psychological constructs. Connecting cognitive and social psychology constructs to neurophenomics, as it is done now in psychiatry, should ground them in physical reality.",
+        "authors": [
+          "W\u0142odzis\u0142aw Duch"
+        ],
+        "year": 2017,
+        "url": "http://arxiv.org/abs/1711.01767v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2504.16770v1",
+        "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+        "abstract": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+        "authors": [
+          "Chaeyeon Lim"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2504.16770v1"
+      },
+      {
+        "id": "http://arxiv.org/abs/2507.11460v1",
+        "title": "Human-Robot collaboration in surgery: Advances and challenges towards autonomous surgical assistants",
+        "abstract": "Human-robot collaboration in surgery represents a significant area of research, driven by the increasing capability of autonomous robotic systems to assist surgeons in complex procedures. This systematic review examines the advancements and persistent challenges in the development of autonomous surgical robotic assistants (ASARs), focusing specifically on scenarios where robots provide meaningful and active support to human surgeons. Adhering to the PRISMA guidelines, a comprehensive literature search was conducted across the IEEE Xplore, Scopus, and Web of Science databases, resulting in the selection of 32 studies for detailed analysis. Two primary collaborative setups were identified: teleoperation-based assistance and direct hands-on interaction. The findings reveal a growing research emphasis on ASARs, with predominant applications currently in endoscope guidance, alongside emerging progress in autonomous tool manipulation. Several key challenges hinder wider adoption, including the alignment of robotic actions with human surgeon preferences, the necessity for procedural awareness within autonomous systems, the establishment of seamless human-robot information exchange, and the complexities of skill acquisition in shared workspaces. This review synthesizes current trends, identifies critical limitations, and outlines future research directions essential to improve the reliability, safety, and effectiveness of human-robot collaboration in surgical environments.",
+        "authors": [
+          "Jacinto Colan",
+          "Ana Davila",
+          "Yutaro Yamada",
+          "Yasuhisa Hasegawa"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2507.11460v1"
+      },
+      {
+        "id": "https://openalex.org/W1557496348",
+        "title": "Engineering Psychology and Human Performance",
+        "abstract": "Forming connections between human performance and design Engineering Psychology and Human Performance, 4e examines human-machine interaction. The book is organized directly from the psychological perspective of human information processing. The chapters generally correspond to the flow of information as it is processed by a human being--from the senses, through the brain, to action--rather than from the perspective of system components or engineering design concepts. This book is ideal for a psychology student, engineering student, or actual practitioner in engineering psychology, human performance, and human factors Learning Goals Upon completing this book, readers should be able to: * Identify how human ability contributes to the design of technology. * Understand the connections within human information processing and human performance. * Challenge the way they think about technology's influence on human performance.&nbsp; * show how theoretical advances have been, or might be, applied to improving human-machine interaction",
+        "authors": [
+          "Christopher D. Wickens",
+          "Justin G. Hollands",
+          "Simon Banbury",
+          "Raja Parasuraman"
+        ],
+        "year": 2015,
+        "url": "https://doi.org/10.4324/9781315665177"
+      },
+      {
+        "id": "https://openalex.org/W1991691398",
+        "title": "The Psychology of Human-Computer Interaction",
+        "abstract": "Contents: Preface. An Applied Information-Processing Psychology. Part I: Science Base. The Human Information-Processor. Part II: Text-Editing. System and User Variability. An Exercise in Task Analysis. The GOMS Model of Manuscript Editing. Extensions of the GOMS Analysis. Models of Devices for Text Selection. Part III: Engineering Models. The Keystroke-Level Model. The Unit-Task Level of Analysis. Part IV: Extensions and Generalizations. An Exploration into Circuit Design. Cognitive Skill. Applying Psychology to Design Reprise.",
+        "authors": [
+          "Stuart K. Card",
+          "Thomas P. Moran",
+          "Allen Newell"
+        ],
+        "year": 2018,
+        "url": "https://doi.org/10.1201/9780203736166"
+      },
+      {
+        "id": "https://openalex.org/W2163065315",
+        "title": "Animal spirits: how human psychology drives the economy, and why it matters for global capitalism",
+        "abstract": "Neoclassical economics states that economic decisions about human behavior are based on figures, statistics, and assumptions, and that rational decisions made on the basis of these assumptions do not change under different emotional conditions.However, as Amos Tversky and Daniel Kahneman stated in their studies in 1974 and Prospect Theory in 1979, people have only limited rationality with heuristics and biases.While neoclassical economic assumptions prevents economics from being a true social science, behavioral economics tries to explain economic events by understanding people without isolating them from economics.The book entitled \"Animal Spirits: How Human Psychology Drives the Economy, and Why It Matters for Global Capitalism, \" written by George A. Akerlof and Robert J. Shiller and published in 2009, deals with the factors affecting individuals in the decision-making process with a perspective other than neoclassical economic theory.In the first section of the two-part book, five basic motives (trust, justice, corruption, money illusion, and stories) are explained, while in the second section, eight questions about the economy are answered within the framework of these animal motivations.The importance of the book is its inclusion of animal motives in the economy that current theory fails to do so.In the book, while the econometric and statisticsbased models used by neoclassical economic theory to explain assumptions and economic phenomena are criticized, behavioral economic theory is put in its place.",
+        "authors": [],
+        "year": 2009,
+        "url": "https://doi.org/10.5860/choice.46-6301"
+      },
+      {
+        "id": "https://openalex.org/W4214564655",
+        "title": "Journal of experimental psychology: Human Perception and performance",
+        "abstract": "",
+        "authors": [
+          "James E. Cutting"
+        ],
+        "year": 1987,
+        "url": "https://doi.org/10.1016/0022-460x(87)90423-8"
+      },
+      {
+        "id": "https://openalex.org/W1854481739",
+        "title": "The flow experience and its significance for human psychology",
+        "abstract": "In the ordinary course of events, psychologists observe human action either in clinical settings, where the \u201cpatient\u201d is seeking therapeutic redress for some impairment, or in experimental settings, where the confines of the laboratory and the parameters of the experimental design allow only a tiny fraction of potential responses to be manifested. The theoretical models of human action that psychologists have constructed in the past half century reflect this poverty of observational data: They tend to be mechanistic, reductive, and biased in favor of pathology.",
+        "authors": [
+          "Mih\u00e1ly Cs\u00edkszentmih\u00e1lyi"
+        ],
+        "year": 1988,
+        "url": "https://doi.org/10.1017/cbo9780511621956.002"
+      },
+      {
+        "id": "https://openalex.org/W3128452343",
+        "title": "Journal of Experimental Psychology: Human Learning and Memory",
+        "abstract": "",
+        "authors": [
+          "Lyle E. Bourne"
+        ],
+        "year": 1977,
+        "url": null
+      },
+      {
+        "id": "https://openalex.org/W2132738192",
+        "title": "Toward a Psychology of Human Agency",
+        "abstract": "This article presents an agentic theory of human development, adaptation, and change. The evolutionary emergence of advanced symbolizing capacity enabled humans to transcend the dictates of their immediate environment and made them unique in their power to shape their life circumstances and the courses their lives take. In this conception, people are contributors to their life circumstances, not just products of them. Social cognitive theory rejects a duality between human agency and social structure. People create social systems, and these systems, in turn, organize and influence people's lives. This article discusses the core properties of human agency, the different forms it takes, its ontological and epistemological status, its development and role in causal structures, its growing primacy in the coevolution process, and its influential exercise at individual and collective levels across diverse spheres of life and cultural systems.",
+        "authors": [
+          "Albert Bandura"
+        ],
+        "year": 2006,
+        "url": "https://doi.org/10.1111/j.1745-6916.2006.00011.x"
+      },
+      {
+        "id": "https://openalex.org/W2005640289",
+        "title": "Human Groups and Social Categories: Studies in Social Psychology.",
+        "abstract": "Acknowledgements Foreword Jerome S. Bruner 1. The development of a perspective Part I. Social Psychology and Social Processes: Introduction 2. Experiments in a vacuum 3. Individuals and groups ion social psychology Part II. From Perceptual Judgement to Social Stereotypes: Introduction 4. The importance of exagerrating 5. Differences and similarities: some contexts of judgement 6. Cognitive aspects of prejudice 7. Social stereotypes and social groups Part III. Insiders and Outsiders: Introduction 8. The experience of prejudice 9. The beginnings of ethnocentrism 10. Children's international perspectives Part IV. Intergroup Conflict: Introduction 11. The attributes of intergroup behaviour 12. Social categorization, social identity and social comparison 13. The achievement of group differentiation 14. Exit and voice in intergroup relations 15. The social psychology of minorities References Indices.",
+        "authors": [
+          "Alvin W. Rose",
+          "Henri Tajfel"
+        ],
+        "year": 1983,
+        "url": "https://doi.org/10.2307/2066820"
+      },
+      {
+        "id": "https://openalex.org/W4232424142",
+        "title": "Journal of Experimental Psychology: Human Perception and Performance.",
+        "abstract": "",
+        "authors": [
+          "Margaret Jean Intons-Peterson"
+        ],
+        "year": 1981,
+        "url": "https://doi.org/10.1037/h0078016"
+      },
+      {
+        "id": "https://openalex.org/W2016909542",
+        "title": "Concrete Human Psychology",
+        "abstract": "For L. S. Vygotsky the end of the '20s was a time of intensive theoretical and experimental work in developing the basic postulates of his cultural-historical theory of the human mind. The relatively calm and, in spite of everything, happy first five years of his life in Moscow, after moving there in 1924 from Gomel', lay behind him. This was a period of his development as a psychologist when his star was in the ascendancy; when within a few years, this still quite young man was transformed from a provincial teacher, known to no one, into one of the leading and most outstanding figures in young Soviet psychology, a scholar with an inviolable scientific authority, surrounded by a group of young, also talented, and solemnly dedicated disciples; a man with a deep awareness of his mission in the development of science, full of ideas, intentions, and plans, most of which, unfortunately, were destined to remain unrealized because of Vygotsky's premature death. Vygotsky worked all these years rapidly and intensively, as if he had a presentiment of his death. One after the other, great works, which today constitute the body of the cultural-historical concept, and have long since become part of the treasures of Soviet and world psychological literature, flowed from his pen. Almost every one of them was prepared by degrees, in preliminary sketches and notes Vygotsky had made mostly for himself, not intending them for print. But even this special \"inner speech\" of Vygotsky's is usually in the form of independent, coherent, and sometimes fully finished texts, thanks to his generally striking capacity to live and do everything in his life immediately \"from scratch,\" without any \"rough drafts.\" Such is the manuscript published below, which Vygotsky wrote in 1929; it is from his family archives, kindly provided by his daughter, G. L. Vygotskaya. This work gives us a glimpse into the creative laboratory of this extraordinary thinker, enabling us, with almost visual clarity, to view the process of crystallization of some of the basic postulates of his cultural-historical theory, which we know well from Vygotsky's classical works of the early '30s. Moreover, it also contains a number of original ideas and reflections that were not dealt with further in his later works. In this sense, Vygotsky's notes published here should shed new light on some of the fundamental postulates of his concept, sometimes within a context that makes them extremely timely for contemporary psychology as well.",
+        "authors": [
+          "L. S. Vygotsky"
+        ],
+        "year": 1989,
+        "url": "https://doi.org/10.2753/rpo1061-0405270253"
+      }
+    ],
+    "timestamp": "2026-06-22T20:38:57.489379+00:00"
+  },
+  "321bc020ee0acb789747abe58c31119d": {
+    "query": "patience in humans",
+    "results": [
+      {
+        "id": "https://openalex.org/W4236872974",
+        "title": "Patience",
+        "abstract": "",
+        "authors": [
+          "Jeffrey R. Stevens",
+          "David W. Stephens"
+        ],
+        "year": 2008,
+        "url": "https://doi.org/10.1016/j.cub.2007.11.021"
+      },
+      {
+        "id": "https://openalex.org/W2113281951",
+        "title": "The Evolutionary Origins of Human Patience: Temporal Preferences in Chimpanzees, Bonobos, and Human Adults",
+        "abstract": "",
+        "authors": [
+          "Alexandra G. Rosati",
+          "Jeffrey R. Stevens",
+          "Brian Hare",
+          "Marc D. Hauser"
+        ],
+        "year": 2007,
+        "url": "https://doi.org/10.1016/j.cub.2007.08.033"
+      },
+      {
+        "id": "http://arxiv.org/abs/0705.4524v1",
+        "title": "Patience Sorting and Its Generalizations",
+        "abstract": "This dissertation collects together results on Patience Sorting and its generalizations. It incorporates the results of math.CO/0506358, math.CO/0507031, and math.CO/0512122, as well as previously unpublished results.",
+        "authors": [
+          "Isaiah Lankham"
+        ],
+        "year": 2007,
+        "url": "http://arxiv.org/abs/0705.4524v1"
+      },
+      {
+        "id": "https://openalex.org/W2144725040",
+        "title": "The ecology and evolution of patience in two New World monkeys",
+        "abstract": "Decision making often involves choosing between small, short-term rewards and large, long-term rewards. All animals, humans included, discount future rewards--the present value of delayed rewards is viewed as less than the value of immediate rewards. Despite its ubiquity, there exists considerable but unexplained variation between species in their capacity to wait for rewards--that is, to exert patience or self-control. Using two closely related primates--common marmosets (Callithrix jacchus) and cotton-top tamarins (Saguinus oedipus)--we uncover a variable that may explain differences in how species discount future rewards. Both species faced a self-control paradigm in which individuals chose between taking an immediate small reward and waiting a variable amount of time for a large reward. Under these conditions, marmosets waited significantly longer for food than tamarins. This difference cannot be explained by life history, social behaviour or brain size. It can, however, be explained by feeding ecology: marmosets rely on gum, a food product acquired by waiting for exudate to flow from trees, whereas tamarins feed on insects, a food product requiring impulsive action. Foraging ecology, therefore, may provide a selective pressure for the evolution of self-control.",
+        "authors": [
+          "Jeffrey R. Stevens",
+          "Elizabeth V. Hallinan",
+          "Marc D. Hauser"
+        ],
+        "year": 2005,
+        "url": "https://doi.org/10.1098/rsbl.2004.0285"
+      },
+      {
+        "id": "http://arxiv.org/abs/2311.06092v3",
+        "title": "Patience ensures fairness",
+        "abstract": "We revisit the problem of fairly allocating a sequence of time slots when agents may have different levels of patience (Mackenzie and Komornik 2023). For each number of agents, we provide a lower threshold and an upper threshold on the level of patience such that (i) if each agent is at least as patient as the lower threshold, then there is a proportional allocation, and (ii) if each agent is at least as patient as the upper threshold and moreover has weak preference for earlier time slots, then there is an envy-free allocation. In both cases, the proof is constructive.",
+        "authors": [
+          "Florian Brandl",
+          "Andrew Mackenzie"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2311.06092v3"
+      },
+      {
+        "id": "https://openalex.org/W2614514379",
+        "title": "Dissociable Contributions of Imagination and Willpower to the Malleability of Human Patience",
+        "abstract": "The ability to exercise patience is important for human functioning. Although it is known that patience can be promoted by using top-down control, or willpower, to override impatient impulses, patience is also malleable-in particular, susceptible to framing effects-in ways that are difficult to explain using willpower alone. So far, the mechanisms underlying framing effects on patience have been elusive. We investigated the role of imagination in these effects. In a behavioral experiment (Experiment 1), a classic framing manipulation (sequence framing) increased self-reported and independently coded imagination during intertemporal choice. In an investigation of neural responses during decision making (Experiment 2), sequence framing increased the extent to which patience was related to activation in brain regions associated with imagination, relative to activation in regions associated with willpower, and increased functional connectivity of brain regions associated with imagination, but not willpower, relative to regions associated with valuation. Our results suggest that sequence framing can increase the role of imagination in decision making without increasing the exertion of willpower.",
+        "authors": [
+          "Adrianna C. Jenkins",
+          "Ming Hsu"
+        ],
+        "year": 2017,
+        "url": "https://doi.org/10.1177/0956797617698133"
+      },
+      {
+        "id": "https://openalex.org/W4212809567",
+        "title": "Patience and Comparative Development",
+        "abstract": "Abstract This article studies the relationship between patience and comparative development through a combination of reduced-form analyses and model estimations. Based on a globally representative dataset on time preference in 76 countries, we document two sets of stylized facts. First, patience is strongly correlated with per capita income and the accumulation of physical capital, human capital, and productivity. These correlations hold across countries, sub-national regions, and individuals. Second, the magnitude of the patience elasticity strongly increases in the level of aggregation. To provide an interpretive lens for these patterns, we analyse an overlapping generations model in which savings and education decisions are endogenous to patience, aggregate production is characterized by capital-skill complementarities, and productivity implicitly depends on patience through a human capital externality. In our model estimations, general equilibrium effects alone account for a non-trivial share of the observed amplification effects, and an extension to human capital externalities can quantitatively match the empirical evidence.",
+        "authors": [
+          "Uwe Sunde",
+          "Thomas Dohmen",
+          "Benjamin Enke",
+          "Armin Falk",
+          "David Huffman",
+          "Gerrit Meyerheim"
+        ],
+        "year": 2021,
+        "url": "https://doi.org/10.1093/restud/rdab084"
+      },
+      {
+        "id": "http://arxiv.org/abs/2603.11453v2",
+        "title": "Persistence, patience and costly information acquisition",
+        "abstract": "A forward-looking agent observes signals of a state that follows a Gaussian AR(1) process. He balances the cost of having imprecise beliefs with the cost of acquiring more precise signals. I characterize his optimal information acquisition policy, and analyze how his steady-state beliefs and costs depend on persistence (the AR(1) parameter) and patience (the agent's discount factor). Higher persistence has a non-monotone effect on belief precision and raises overall costs. Higher patience makes beliefs more precise and lowers overall costs.",
+        "authors": [
+          "Benjamin Davies"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2603.11453v2"
+      },
+      {
+        "id": "3d1c0943465c99a64b466a99d9aff716",
+        "title": "Engineering Psychology and Human Performance",
+        "year": 2015,
+        "authors": [
+          "Christopher D. Wickens",
+          "Justin G. Hollands",
+          "Simon Banbury",
+          "Raja Parasuraman"
+        ],
+        "url": "https://doi.org/10.4324/9781315665177",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "267b716e148e23e477b042334119f3cd",
+        "title": "Toward a Psychology of Human Agency",
+        "year": 2006,
+        "authors": [
+          "Albert Bandura"
+        ],
+        "url": "https://doi.org/10.1111/j.1745-6916.2006.00011.x",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/1910.05789v2",
+        "title": "On the Utility of Learning about Humans for Human-AI Coordination",
+        "abstract": "While we would like agents that can coordinate with humans, current algorithms such as self-play and population-based training create agents that can coordinate with themselves. Agents that assume their partner to be optimal or similar to them can converge to coordination protocols that fail to understand and be understood by humans. To demonstrate this, we introduce a simple environment that requires challenging coordination, based on the popular game Overcooked, and learn a simple model that mimics human play. We evaluate the performance of agents trained via self-play and population-based training. These agents perform very well when paired with themselves, but when paired with our human model, they are significantly worse than agents designed to play with the human model. An experiment with a planning algorithm yields the same conclusion, though only when the human-aware planner is given the exact human model that it is playing with. A user study with real humans shows this pattern as well, though less strongly. Qualitatively, we find that the gains come from having the agent adapt to the human's gameplay. Given this result, we suggest several approaches for designing agents that learn about humans in order to better coordinate with them. Code is available at https://github.com/HumanCompatibleAI/overcooked_ai.",
+        "authors": [
+          "Micah Carroll",
+          "Rohin Shah",
+          "Mark K. Ho",
+          "Thomas L. Griffiths",
+          "Sanjit A. Seshia",
+          "Pieter Abbeel",
+          "Anca Dragan"
+        ],
+        "year": 2019,
+        "url": "http://arxiv.org/abs/1910.05789v2"
+      },
+      {
+        "id": "36e5f6b2cca4f2c986984bf058c8470d",
+        "title": "Concrete Human Psychology",
+        "year": 1989,
+        "authors": [
+          "L. S. Vygotsky"
+        ],
+        "url": "https://doi.org/10.2753/rpo1061-0405270253",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "cbb88bf61bffbfc020523d1dc2bc8edb",
+        "title": "Needs-aware Artificial Intelligence: AI that 'serves [human] needs'",
+        "year": 2022,
+        "authors": [
+          "Ryan Watkins",
+          "Soheil Human"
+        ],
+        "url": "http://arxiv.org/abs/2202.04977v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.19066v1",
+        "title": "The Value of Patience in Online Grocery Shopping",
+        "abstract": "Since the COVID-19 pandemic, online grocery shopping has rapidly reshaped consumer behavior worldwide, fueled by ever-faster delivery promises aimed at maximizing convenience. Yet, this growth has also substantially increased urban traffic congestion, emissions, and pollution. Despite extensive research on urban delivery optimization, little is known about the trade-off between individual convenience and these societal costs. In this study, we investigate the value of marginal extensions in delivery times, termed customer patience, in mitigating the traffic burden caused by grocery deliveries. We first conceptualize the problem and present a mathematical model that highlights a convex relationship between patience and traffic congestion. The theoretical predictions are confirmed by an extensive, network-science based analysis leveraging two large-scale datasets encompassing over 8 million grocery orders in Dubai. Our findings reveal that allowing just five additional minutes in delivery time reduces daily delivery mileage by approximately 30 percent and life-cycle CO2 emissions by 20 percent. Beyond ten minutes of added patience, however, marginal benefits diminish significantly. These results highlight that modest increases in consumer patience can deliver substantial gains in traffic reduction and sustainability, offering a scalable strategy to balance individual convenience with societal welfare in urban delivery systems.",
+        "authors": [
+          "Javad Eshtiyagh",
+          "Pei Zhao",
+          "Federico Librino",
+          "Giovanni Resta",
+          "Paolo Santi",
+          "Martina Mazzarello",
+          "Akanksha Khurd",
+          "Santo Fortunato",
+          "Carlo Ratti"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2510.19066v1"
+      },
+      {
+        "id": "https://openalex.org/W1543888238",
+        "title": "Latent Mycobacterium tuberculosis\u2013persistence, patience and winning by waiting",
+        "abstract": "",
+        "authors": [
+          "Yukari C. Manabe",
+          "William R. Bishai"
+        ],
+        "year": 2000,
+        "url": "https://doi.org/10.1038/82139"
+      },
+      {
+        "id": "1a85c2096ed1da5c0a9c92c2147a5556",
+        "title": "Animal spirits: how human psychology drives the economy, and why it matters for global capitalism",
+        "year": 2009,
+        "authors": [],
+        "url": "https://doi.org/10.5860/choice.46-6301",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "71364aab4244970fc0560d562230e3e1",
+        "title": "The flow experience and its significance for human psychology",
+        "year": 1988,
+        "authors": [
+          "Mih\u00e1ly Cs\u00edkszentmih\u00e1lyi"
+        ],
+        "url": "https://doi.org/10.1017/cbo9780511621956.002",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "fdd5ed2576489c2b5e9e2d13fbe171f2",
+        "title": "Journal of Experimental Psychology: Human Perception and Performance.",
+        "year": 1981,
+        "authors": [
+          "Margaret Jean Intons-Peterson"
+        ],
+        "url": "https://doi.org/10.1037/h0078016",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "2826ca619e8284c15a323ca137696a68",
+        "title": "Journal of experimental psychology: Human Perception and performance",
+        "year": 1987,
+        "authors": [
+          "James E. Cutting"
+        ],
+        "url": "https://doi.org/10.1016/0022-460x(87)90423-8",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "893703905f89562448ce176c0ce537b6",
+        "title": "Journal of Experimental Psychology: Human Learning and Memory",
+        "year": 1977,
+        "authors": [
+          "Lyle E. Bourne"
+        ],
+        "url": "",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "1923bd246f723b0e900061eb54bfed5a",
+        "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+        "year": 2025,
+        "authors": [
+          "Katelyn Xiaoying Mei",
+          "Nic Weber"
+        ],
+        "url": "http://arxiv.org/abs/2504.14689v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "https://openalex.org/W4206163585",
+        "title": "Patience, Risk-Taking, and Human Capital Investment Across Countries",
+        "abstract": "Abstract Patience and risk-taking\u2014two preference components that steer intertemporal decision-making\u2014are fundamental to human capital investment decisions. To understand how they contribute to international skill differences, we combine Programme for International Student Assessment tests with the Global Preference Survey. We find that opposing effects of patience (positive) and risk-taking (negative) together account for two-thirds of the cross-country variation in student skills. In an identification strategy addressing unobserved residence country features, we find similar results when assigning migrant students their country-of-origin preferences in models with residence country fixed effects. Associations of national preferences with family and school inputs suggest that both may act as channels.",
+        "authors": [
+          "Eric A. Hanushek",
+          "Lavinia Kinne",
+          "Philipp Lergetporer",
+          "Ludger Woessmann"
+        ],
+        "year": 2021,
+        "url": "https://doi.org/10.1093/ej/ueab105"
+      },
+      {
+        "id": "http://arxiv.org/abs/math/0506358v3",
+        "title": "Combinatorics of patience sorting piles",
+        "abstract": "Despite having been introduced in 1962 by C.L. Mallows, the combinatorial algorithm Patience Sorting is only now beginning to receive significant attention due to such recent deep results as the Baik-Deift-Johansson Theorem that connect it to fields including Probabilistic Combinatorics and Random Matrix Theory. The aim of this work is to develop some of the more basic combinatorics of the Patience Sorting Algorithm. In particular, we exploit the similarities between Patience Sorting and the Schensted Insertion Algorithm in order to do things that include defining an analog of the Knuth relations and extending Patience Sorting to a bijection between permutations and certain pairs of set partitions. As an application of these constructions we characterize and enumerate the set S_n(3-\\bar{1}-42) of permutations that avoid the generalized permutation pattern 2-31 unless it is part of the generalized pattern 3-1-42.",
+        "authors": [
+          "Alexander Burstein",
+          "Isaiah Lankham"
+        ],
+        "year": 2005,
+        "url": "http://arxiv.org/abs/math/0506358v3"
+      },
+      {
+        "id": "8db74a82c4caf8621117de7de0216d8f",
+        "title": "Social Biases in NLP Models as Barriers for Persons with Disabilities",
+        "year": 2020,
+        "authors": [
+          "Ben Hutchinson",
+          "Vinodkumar Prabhakaran",
+          "Emily Denton",
+          "Kellie Webster",
+          "Yu Zhong",
+          "Stephen Denuyl"
+        ],
+        "url": "https://doi.org/10.18653/v1/2020.acl-main.487",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/math/0507031v2",
+        "title": "A Geometric Form for the Extended Patience Sorting Algorithm",
+        "abstract": "Patience Sorting is a combinatorial algorithm that can be viewed as an iterated, non-recursive form of the Schensted Insertion Algorithm. In recent work the authors extended Patience Sorting to a full bijection between the symmetric group and certain pairs of combinatorial objects (called pile configurations) that are most naturally defined in terms of generalized permutation pattern and barred pattern avoidance. This Extended Patience Sorting Algorithm is very similar to the Robinson-Schensted-Knuth (or RSK) Correspondence, which is itself built from repeated application of the Schensted Insertion Algorithm. In this work we introduce a geometric form for the Extended Patience Sorting Algorithm that is in some sense a natural dual algorithm to G. Viennot's celebrated Geometric RSK Algorithm. Unlike Geometric RSK, though, the lattice paths coming from Patience Sorting are allowed to intersect. We thus also give a characterization for the intersections of these lattice paths in terms of the pile configurations associated with a given permutation under the Extended Patience Sorting Algorithm.",
+        "authors": [
+          "Alexander Burstein",
+          "Isaiah Lankham"
+        ],
+        "year": 2005,
+        "url": "http://arxiv.org/abs/math/0507031v2"
+      },
+      {
+        "id": "170589711b1466695fdc2b74f7e6586c",
+        "title": "Robotics Technology in Mental Health Care",
+        "year": 2015,
+        "authors": [
+          "Laurel D. Riek"
+        ],
+        "url": "http://arxiv.org/abs/1511.02281v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "aadbe4490a36cbd821c0372d9de42419",
+        "title": "Wellbeing supportive design -- Research-based guidelines for supporting psychological wellbeing in user experience",
+        "year": 2021,
+        "authors": [
+          "Dorian Peters"
+        ],
+        "url": "http://arxiv.org/abs/2109.09092v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/math/0512122v2",
+        "title": "Restricted Patience Sorting and Barred Pattern Avoidance",
+        "abstract": "Patience Sorting is a combinatorial algorithm that can be viewed as an iterated, non-recursive form of the Schensted Insertion Algorithm. In recent work the authors have shown that Patience Sorting provides an algorithmic description for permutations avoiding the barred (generalized) permutation pattern $3-\\bar{1}-42$. Motivated by this and a recently formulated geometric form for Patience Sorting in terms of certain intersecting lattice paths, we study the related themes of restricted input and avoidance of similar barred permutation patterns. One such result is to characterize those permutations for which Patience Sorting is an invertible algorithm as the set of permutations simultaneously avoiding the barred patterns $3-\\bar{1}-42$ and $3-\\bar{1}-24$. We then enumerate this avoidance set, which involves convolved Fibonacci numbers.",
+        "authors": [
+          "Alexander Burstein",
+          "Isaiah Lankham"
+        ],
+        "year": 2005,
+        "url": "http://arxiv.org/abs/math/0512122v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2512.06890v1",
+        "title": "What Needs to be Known in Order to Perform a Meaningful Scientific Comparison Between Animal Communications and Human Spoken Language",
+        "abstract": "Human spoken language has long been the subject of scientific investigation, particularly with regard to the mechanisms underpinning speech production. Likewise, the study of animal communications has a substantial literature, with many studies focusing on vocalisation. More recently, there has been growing interest in comparing animal communications and human speech. However, it is proposed here that such a comparison necessitates the appraisal of a minimum set of critical phenomena: i) the number of degrees-of-freedom of the vocal apparatus, ii) the ability to control those degrees-of-freedom independently, iii) the properties of the acoustic environment in which communication takes place, iv) the perceptual salience of the generated sounds, v) the degree to which sounds are contrastive, vi) the presence/absence of compositionality, and vii) the information rate(s) of the resulting communications.",
+        "authors": [
+          "Roger K. Moore"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2512.06890v1"
+      },
+      {
+        "id": "581a2f55d87ba219025433a91d9fd3d6",
+        "title": "Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts",
+        "year": 2026,
+        "authors": [
+          "Chantale Lauer",
+          "Peter Pfeiffer",
+          "Nijat Mehdiyev"
+        ],
+        "url": "http://arxiv.org/abs/2603.12895v1",
+        "similarity_score": 0.0
+      }
+    ],
+    "timestamp": "2026-06-22T20:51:54.399198+00:00"
+  },
+  "38028db4aee4b8977891152b8813f625": {
+    "query": "human voices and birds voices",
+    "results": [
+      {
+        "id": "https://openalex.org/W1991355509",
+        "title": "Influence of fundamental frequency on stop-consonant voicing perception: A case of learned covariation or auditory enhancement?",
+        "abstract": "For stimuli modeling stop consonants varying in the acoustic correlates of voice onset time (VOT), human listeners are more likely to perceive stimuli with lower f0's as voiced consonants--a pattern of perception that follows regularities in English speech production. The present study examines the basis of this observation. One hypothesis is that lower f0's enhance perception of voiced stops by virtue of perceptual interactions that arise from the operating characteristics of the auditory system. A second hypothesis is that this perceptual pattern develops as a result of experience with f0-voicing covariation. In a test of these hypotheses, Japanese quail learned to respond to stimuli drawn from a series varying in VOT through training with one of three patterns of f0-voicing covariation. Voicing and f0 varied in the natural pattern (shorter VOT, lower f0), in an inverse pattern (shorter VOT, higher f0), or in a random pattern (no f0-voicing covariation). Birds trained with stimuli that had no f0-voicing covariation exhibited no effect of f0 on response to novel stimuli varying in VOT. For the other groups, birds' responses followed the experienced pattern of covariation. These results suggest f0 does not exert an obligatory influence on categorization of consonants as [VOICE] and emphasize the learnability of covariation among acoustic characteristics of speech.",
+        "authors": [
+          "Lori L. Holt",
+          "Andrew J. Lotto",
+          "Keith R. Kluender"
+        ],
+        "year": 2001,
+        "url": "https://doi.org/10.1121/1.1339825"
+      },
+      {
+        "id": "http://arxiv.org/abs/2505.24336v1",
+        "title": "When Humans Growl and Birds Speak: High-Fidelity Voice Conversion from Human to Animal and Designed Sounds",
+        "abstract": "Human to non-human voice conversion (H2NH-VC) transforms human speech into animal or designed vocalizations. Unlike prior studies focused on dog-sounds and 16 or 22.05kHz audio transformation, this work addresses a broader range of non-speech sounds, including natural sounds (lion-roars, birdsongs) and designed voice (synthetic growls). To accomodate generation of diverse non-speech sounds and 44.1kHz high-quality audio transformation, we introduce a preprocessing pipeline and an improved CVAE-based H2NH-VC model, both optimized for human and non-human voices. Experimental results showed that the proposed method outperformed baselines in quality, naturalness, and similarity MOS, achieving effective voice conversion across diverse non-human timbres. Demo samples are available at https://nc-ai.github.io/speech/publications/nonhuman-vc/",
+        "authors": [
+          "Minsu Kang",
+          "Seolhee Lee",
+          "Choonghyeon Lee",
+          "Namhyun Cho"
+        ],
+        "year": 2025,
+        "url": "http://arxiv.org/abs/2505.24336v1"
+      },
+      {
+        "id": "https://openalex.org/W2084411436",
+        "title": "Electrophysiological evidence for an early processing of human voices",
+        "abstract": "BACKGROUND: Previous electrophysiological studies have identified a \"voice specific response\" (VSR) peaking around 320 ms after stimulus onset, a latency markedly longer than the 70 ms needed to discriminate living from non-living sound sources and the 150 ms to 200 ms needed for the processing of voice paralinguistic qualities. In the present study, we investigated whether an early electrophysiological difference between voice and non-voice stimuli could be observed. RESULTS: ERPs were recorded from 32 healthy volunteers who listened to 200 ms long stimuli from three sound categories - voices, bird songs and environmental sounds - whilst performing a pure-tone detection task. ERP analyses revealed voice/non-voice amplitude differences emerging as early as 164 ms post stimulus onset and peaking around 200 ms on fronto-temporal (positivity) and occipital (negativity) electrodes. CONCLUSION: Our electrophysiological results suggest a rapid brain discrimination of sounds of voice, termed the \"fronto-temporal positivity to voices\" (FTPV), at latencies comparable to the well-known face-preferential N170.",
+        "authors": [
+          "Ian Charest",
+          "Cyril Pernet",
+          "Guillaume A. Rousselet",
+          "Ileana Qui\u00f1ones",
+          "Marianne Latinus",
+          "Sarah Fillion-Bilodeau",
+          "Jean\u2010Pierre Chartrand",
+          "Pascal Belin"
+        ],
+        "year": 2009,
+        "url": "https://doi.org/10.1186/1471-2202-10-127"
+      },
+      {
+        "id": "http://arxiv.org/abs/2112.08165v1",
+        "title": "Chimpanzee voice prints? Insights from transfer learning experiments from human voices",
+        "abstract": "Individual vocal differences are ubiquitous in the animal kingdom. In humans, these differences pervade the entire vocal repertoire and constitute a \"voice print\". Apes, our closest-living relatives, possess individual signatures within specific call types, but the potential for a unique voice print has been little investigated. This is partially attributed to the limitations associated with extracting meaningful features from small data sets. Advances in machine learning have highlighted an alternative to traditional acoustic features, namely pre-trained learnt extractors. Here, we present an approach building on these developments: leveraging a feature extractor based on a deep neural network trained on over 10,000 human voice prints to provide an informative space over which we identify chimpanzee voice prints. We compare our results with those obtained by using traditional acoustic features and discuss the benefits of our methodology and the significance of our findings for the identification of \"voice prints\" in non-human animals.",
+        "authors": [
+          "Mael Leroux",
+          "Orestes Gutierrez Al-Khudhairy",
+          "Nicolas Perony",
+          "Simon W. Townsend"
+        ],
+        "year": 2021,
+        "url": "http://arxiv.org/abs/2112.08165v1"
+      },
+      {
+        "id": "https://openalex.org/W2067392866",
+        "title": "What songbirds teach us about learning",
+        "abstract": "",
+        "authors": [
+          "Michael S. Brainard",
+          "Allison J. Doupe"
+        ],
+        "year": 2002,
+        "url": "https://doi.org/10.1038/417351a"
+      },
+      {
+        "id": "https://openalex.org/W2048911549",
+        "title": "Elephants can determine ethnicity, gender, and age from acoustic cues in human voices",
+        "abstract": "Animals can accrue direct fitness benefits by accurately classifying predatory threat according to the species of predator and the magnitude of risk associated with an encounter. Human predators present a particularly interesting cognitive challenge, as it is typically the case that different human subgroups pose radically different levels of danger to animals living around them. Although a number of prey species have proved able to discriminate between certain human categories on the basis of visual and olfactory cues, vocalizations potentially provide a much richer source of information. We now use controlled playback experiments to investigate whether family groups of free-ranging African elephants (Loxodonta africana) in Amboseli National Park, Kenya can use acoustic characteristics of speech to make functionally relevant distinctions between human subcategories differing not only in ethnicity but also in sex and age. Our results demonstrate that elephants can reliably discriminate between two different ethnic groups that differ in the level of threat they represent, significantly increasing their probability of defensive bunching and investigative smelling following playbacks of Maasai voices. Moreover, these responses were specific to the sex and age of Maasai presented, with the voices of Maasai women and boys, subcategories that would generally pose little threat, significantly less likely to produce these behavioral responses. Considering the long history and often pervasive predatory threat associated with humans across the globe, it is likely that abilities to precisely identify dangerous subcategories of humans on the basis of subtle voice characteristics could have been selected for in other cognitively advanced animal species.",
+        "authors": [
+          "Karen McComb",
+          "Graeme Shannon",
+          "Katito Sayialel",
+          "Cynthia J. Moss"
+        ],
+        "year": 2014,
+        "url": "https://doi.org/10.1073/pnas.1321543111"
+      },
+      {
+        "id": "https://openalex.org/W2033455467",
+        "title": "Expression of emotion in voice and music",
+        "abstract": "",
+        "authors": [
+          "Klaus R. Scherer"
+        ],
+        "year": 1995,
+        "url": "https://doi.org/10.1016/s0892-1997(05)80231-0"
+      },
+      {
+        "id": "https://openalex.org/W181878435",
+        "title": "Unnatural voices: extreme narration in modern and contemporary fiction",
+        "abstract": "(print) xiii, 166 p. : ill. ; 24 cm",
+        "authors": [
+          "Brian Richardson"
+        ],
+        "year": 2007,
+        "url": "https://doi.org/10.5860/choice.44-6076"
+      },
+      {
+        "id": "3e419903ab872405353c0d44b4804e6a",
+        "title": "What Needs to be Known in Order to Perform a Meaningful Scientific Comparison Between Animal Communications and Human Spoken Language",
+        "year": 2025,
+        "authors": [
+          "Roger K. Moore"
+        ],
+        "url": "http://arxiv.org/abs/2512.06890v1",
+        "similarity_score": 0.0577
+      },
+      {
+        "id": "https://openalex.org/W2132444296",
+        "title": "Voice perception: Sex, pitch, and the right hemisphere",
+        "abstract": "The present functional magnetic resonance imaging (fMRI) study examined the neurophysiological processing of voice information. The impact of the major acoustic parameters as well as the role of the listener's and the speaker's gender were investigated. Male and female, natural, and manipulated voices were presented to 16 young adults who were asked to judge the naturalness of each voice. The hemodynamic responses were acquired by a 3T Bruker scanner utilizing an event-related design. The activation was generally stronger in response to female voices as well as to manipulated voice signals, and there was no interaction with the listener's gender. Most importantly, the results suggest a functional segregation of the right superior temporal cortex for the processing of different voice parameters, whereby (1) voice pitch is processed in regions close and anterior to Heschl's Gyrus, (2) voice spectral information is processed in posterior parts of the superior temporal gyrus (STG) and areas surrounding the planum parietale (PP) bilaterally, and (3) information about prototypicality is predominately processed in anterior parts of the right STG. Generally, by identifying distinct functional regions in the right STG, our study supports the notion of a fundamental role of the right hemisphere in spoken language comprehension.",
+        "authors": [
+          "Sonja Lattner",
+          "Martin Meyer",
+          "Angela D. Friederici"
+        ],
+        "year": 2004,
+        "url": "https://doi.org/10.1002/hbm.20065"
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.10535v2",
+        "title": "Exploring the Interplay Between Voice, Personality, and Gender in Human-Agent Interactions",
+        "abstract": "To foster effective human-agent interactions, designers must understand how vocal cues influence the perception of agent personality and the role of user-agent alignment in shaping these perceptions. In this work, we examine whether users can perceive extroversion in voice-only artificial agents and how perceived personality relates to user-agent synchrony. We conducted a study with 388 participants, who evaluated four synthetic voices derived from human recordings, varying by gender (male, female) and personality expression (introverted, extroverted). Our results show that participants were able to differentiate perceived extroversion in female agent voices, but not consistently in male voices. We also observed evidence of perceived personality synchrony, particularly in participants' evaluations of the first agent encountered, with this effect more pronounced among male participants and toward male agents. We discuss these findings in light of limitations in stimulus diversity and voice representation, and outline implications for the design of voice-based agents, particularly regarding the interaction between gender, personality perception, and initial user impressions. This paper contributes findings and insights to consider the interplay of user-agent personality and gender synchrony in the design of human-agent interactions.",
+        "authors": [
+          "Kai Alexander Hackney",
+          "Lucas Guarenti Zangari",
+          "Jhonathan Sora-Cardenas",
+          "Emmanuel Munoz",
+          "Sterling R. Kalogeras",
+          "Betsy DiSalvo",
+          "Pedro Guillermo Feijoo-Garcia"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2602.10535v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2302.09198v2",
+        "title": "Exposing AI-Synthesized Human Voices Using Neural Vocoder Artifacts",
+        "abstract": "The advancements of AI-synthesized human voices have introduced a growing threat of impersonation and disinformation. It is therefore of practical importance to developdetection methods for synthetic human voices. This work proposes a new approach to detect synthetic human voices based on identifying artifacts of neural vocoders in audio signals. A neural vocoder is a specially designed neural network that synthesizes waveforms from temporal-frequency representations, e.g., mel-spectrograms. The neural vocoder is a core component in most DeepFake audio synthesis models. Hence the identification of neural vocoder processing implies that an audio sample may have been synthesized. To take advantage of the vocoder artifacts for synthetic human voice detection, we introduce a multi-task learning framework for a binary-class RawNet2 model that shares the front-end feature extractor with a vocoder identification module. We treat the vocoder identification as a pretext task to constrain the front-end feature extractor to focus on vocoder artifacts and provide discriminative features for the final binary classifier. Our experiments show that the improved RawNet2 model based on vocoder identification achieves an overall high classification performance on the binary task.",
+        "authors": [
+          "Chengzhe Sun",
+          "Shan Jia",
+          "Shuwei Hou",
+          "Ehab AlBadawy",
+          "Siwei Lyu"
+        ],
+        "year": 2023,
+        "url": "http://arxiv.org/abs/2302.09198v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.16578v3",
+        "title": "Voice \"Cloning\" is Style Transfer",
+        "abstract": "Artificially generated speech is increasingly embedded in everyday life. Voice cloning in particular enables applications where identity preservation is important, such as completing a recording, dubbing in a new language, or preserving the voices of individuals with speech loss. However, in our work, we find that despite the term, voice cloning does not faithfully ''clone'' an individual's voice. Instead, we find that widely-used voice cloning models systematically apply style transfer to source voices. As rated by human annotators, cloned voices are perceived as more authoritative, warm, customer-service-like, and human-like compared to their sources. Human annotators also report greater trust in cloned voices than source voices, and a greater willingness to disclose sensitive personal information to them. Our work furthermore shows that voice cloning leads to homogenization of speaker characteristics, as measured by reduced variance in accent, speaking rate, and the audio embedding space. Together, our results highlight a new set of limitations and risks of voice cloning technology and their potential impact on human behavior.",
+        "authors": [
+          "Kaitlyn Zhou",
+          "Federico Bianchi",
+          "Martijn Bartelds",
+          "Anna Pot",
+          "Yongchan Kwon",
+          "James Zou"
+        ],
+        "year": 2026,
+        "url": "http://arxiv.org/abs/2605.16578v3"
+      },
+      {
+        "id": "http://arxiv.org/abs/2203.15379v2",
+        "title": "VoiceMe: Personalized voice generation in TTS",
+        "abstract": "Novel text-to-speech systems can generate entirely new voices that were not seen during training. However, it remains a difficult task to efficiently create personalized voices from a high-dimensional speaker space. In this work, we use speaker embeddings from a state-of-the-art speaker verification model (SpeakerNet) trained on thousands of speakers to condition a TTS model. We employ a human sampling paradigm to explore this speaker latent space. We show that users can create voices that fit well to photos of faces, art portraits, and cartoons. We recruit online participants to collectively manipulate the voice of a speaking face. We show that (1) a separate group of human raters confirms that the created voices match the faces, (2) speaker gender apparent from the face is well-recovered in the voice, and (3) people are consistently moving towards the real voice prototype for the given face. Our results demonstrate that this technology can be applied in a wide number of applications including character voice development in audiobooks and games, personalized speech assistants, and individual voices for people with speech impairment.",
+        "authors": [
+          "Pol van Rijn",
+          "Silvan Mertes",
+          "Dominik Schiller",
+          "Piotr Dura",
+          "Hubert Siuzdak",
+          "Peter M. C. Harrison",
+          "Elisabeth Andr\u00e9",
+          "Nori Jacoby"
+        ],
+        "year": 2022,
+        "url": "http://arxiv.org/abs/2203.15379v2"
+      },
+      {
+        "id": "http://arxiv.org/abs/2402.05206v1",
+        "title": "Giving Robots a Voice: Human-in-the-Loop Voice Creation and open-ended Labeling",
+        "abstract": "Speech is a natural interface for humans to interact with robots. Yet, aligning a robot's voice to its appearance is challenging due to the rich vocabulary of both modalities. Previous research has explored a few labels to describe robots and tested them on a limited number of robots and existing voices. Here, we develop a robot-voice creation tool followed by large-scale behavioral human experiments (N=2,505). First, participants collectively tune robotic voices to match 175 robot images using an adaptive human-in-the-loop pipeline. Then, participants describe their impression of the robot or their matched voice using another human-in-the-loop paradigm for open-ended labeling. The elicited taxonomy is then used to rate robot attributes and to predict the best voice for an unseen robot. We offer a web interface to aid engineers in customizing robot voices, demonstrating the synergy between cognitive science and machine learning for engineering tools.",
+        "authors": [
+          "Pol van Rijn",
+          "Silvan Mertes",
+          "Kathrin Janowski",
+          "Katharina Weitz",
+          "Nori Jacoby",
+          "Elisabeth Andr\u00e9"
+        ],
+        "year": 2024,
+        "url": "http://arxiv.org/abs/2402.05206v1"
+      },
+      {
+        "id": "https://openalex.org/W2142393318",
+        "title": "Implicit Multisensory Associations Influence Voice Recognition",
+        "abstract": "Natural objects provide partially redundant information to the brain through different sensory modalities. For example, voices and faces both give information about the speech content, age, and gender of a person. Thanks to this redundancy, multimodal recognition is fast, robust, and automatic. In unimodal perception, however, only part of the information about an object is available. Here, we addressed whether, even under conditions of unimodal sensory input, crossmodal neural circuits that have been shaped by previous associative learning become activated and underpin a performance benefit. We measured brain activity with functional magnetic resonance imaging before, while, and after participants learned to associate either sensory redundant stimuli, i.e. voices and faces, or arbitrary multimodal combinations, i.e. voices and written names, ring tones, and cell phones or brand names of these cell phones. After learning, participants were better at recognizing unimodal auditory voices that had been paired with faces than those paired with written names, and association of voices with faces resulted in an increased functional coupling between voice and face areas. No such effects were observed for ring tones that had been paired with cell phones or names. These findings demonstrate that brief exposure to ecologically valid and sensory redundant stimulus pairs, such as voices and faces, induces specific multisensory associations. Consistent with predictive coding theories, associative representations become thereafter available for unimodal perception and facilitate object recognition. These data suggest that for natural objects effective predictive signals can be generated across sensory systems and proceed by optimization of functional connectivity between specialized cortical sensory modules.",
+        "authors": [
+          "Katharina von Kriegstein",
+          "Anne\u2010Lise Giraud"
+        ],
+        "year": 2006,
+        "url": "https://doi.org/10.1371/journal.pbio.0040326"
+      },
+      {
+        "id": "https://openalex.org/W2050788534",
+        "title": "Myoelastic-Aerodynamic Theory of Voice Production",
+        "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Sep 1958Myoelastic-Aerodynamic Theory of Voice Production Janwillem van den Berg Janwillem van den Berg Google Scholar https://doi.org/10.1044/jshr.0103.227 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by The Journal of the Acoustical Society of America153:5 (2803)1 May 2023 Effect of functional electric stimulation on phonation in an ex vivo aged ovine model Bernhard Jakuba\u00df, Gregor Peters, Stefan Kniesburges, Marion Semmler, Andrijana Kirsch, Claus Gerstenberger, Markus Gugatschka and Michael D\u00f6llinger Journal of Voice37:3 (305-313)1 May 2023Integrative Insights into the Myoelastic-Aerodynamic Theory and Acoustics of Phonation. Scientific Tribute to Donald G. MillerJan G. \u0160vec, Harm K. Schutte, C. Julian Chen and Ingo R. Titze Maryam Naghibolhosseini, Ahmed M Yousef, Mohsen Zayernouri, Stephanie RC Zacharias and Dimitar D Deliyski (2023) Deep Learning for High-Speed Laryngeal Imaging Analysis 2023 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)10.1109/ICCIKE58312.2023.10131757979-8-3503-3826-3 Journal of Voice1 Mar 2023Mechanical Parameters Based on High-Speed Videoendoscopy of the Vocal Folds in Patients With Ectodermal DysplasiaFranziska Pelka, Maria Ensthaler, Olaf Wendler, Stefan Kniesburges, Anne Sch\u00fctzenberger and Marion Semmler Journal of Mammalian Evolution30:1 (79-94)1 Mar 2023The vocal apparatus: An understudied tool to reconstruct the evolutionary history of echolocation in bats?Nicolas L. M. Brualla, Laura A. B. Wilson, Michael Doube, Richard T. Carter, Alan G. McElligott and Daisuke Koyabu Journal of Voice1 Feb 2023Dynamic System Coupling in Voice ProductionChristian T. Herbst, Coen P.H. Elemans, Isao T. Tokuda, Vasileios Chatziioannou and Jan G. \u0160vec Journal of Voice1 Nov 2022Empirical Evaluation of the Role of Vocal Fold Collision on Relative Fundamental Frequency in Voicing OffsetMatti D. Groll, Sean D. Peterson, Mat\u00edas Za\u00f1artu, Jennifer M. Vojtech and Cara E. Stepp Research Studies in Music Education44:3 (491-508)1 Oct 2022Exploring perceptions and experiences of female secondary school singers in Aotearoa New ZealandCalvin P Baker, Te Oti Rakena and Suzanne C Purdy Current Opinion in Behavioral Sciences46 (101140)1 Aug 2022Selection levels on vocal individuality: strategic use or byproductMegan T Wyman, Britta Walkenhorst and Marta B. Manser Chaos, Solitons & Fractals159 (112188)1 Jun 2022Controlling chaotic oscillations in a symmetric two-mass model of the vocal foldsOriol Guasch, Annemie Van Hirtum, A. In\u00e9s Fern\u00e1ndez and Marc Arnela Transgender Health31 May 2022Gender-Affirming Voice Modification for Transgender Women: Characteristics and OutcomesMichelle Adessa, Zoe Weston, Jeremy Ruthberg and Paul C. Bryson Psychology of Music50:3 (933-944)1 May 2022Augmented visual-feedback of airflow: Immediate effects on voice-source characteristics of students of singingFilipa Martins Batista L\u00e3, Johan Sundberg and Svante Granqvist Journal of Voice36:3 (335-343)1 May 2022Multiparameter Voice Assessment in Dysphonics: Correlation Between Objective and Perceptual ParametersSV Narasimhan and Rajesh Rashmi International Journal of Head and Neck Surgery12:4 (125-130)15 Apr 2022Anatomy and Physiology of PhonationCandace Hrelec and Emily Zhang Brain Sciences12:4 (427)23 Mar 2022Phonetic Effects in the Perception of VOT in a Prevoicing LanguageViktor Kharlamov Journal of Phonetics91 (101138)1 Mar 2022Voicing in Qaqet: Prenasalization and language contactMarija Tabain, Marc Garellek, Birgit Hellwig, Adele Gregory and Richard Beare Tissue Engineering Part B: Reviews28:1 (182-205)1 Feb 2022Bioreactors for Vocal Fold Tissue EngineeringAna M. Gracioso Martins, Andreea Biehl, Daphne Sze and Donald O. Freytes Rostam D. Farhadieh, Ajay R. Sud, Edwin Morrison, and Wayne A.J. Morrison (2022) Pharyngeal Reconstruction Plastic Surgery - Principles and Practice10.1016/B978-0-323-65381-7.00026-5 Markus Gugatschka, David Hortobagyi and Liang Ker (2022) Anatomy and Microanatomy of the Larynx Textbook of Surgery of Larynx and Trachea10.1007/978-3-031-09621-1_3 Aude Lagier and Antoine Giovanni (2022) Physiology of the Larynx Textbook of Surgery of Larynx and Trachea10.1007/978-3-031-09621-1_1 EURASIP Journal on Advances in Signal Processing2021:11 Dec 2021Voice production model based on phonation biophysicsRaissa Bezerra Rocha, Wamberto Jos\u00e9 Lira de Queiroz and Marcelo Sampaio de Alencar Journal of Voice1 Oct 2021Multiparametric Analysis of Speaking Fundamental Frequency in Genetically Related Speakers Using Different Speech Materials: Some Forensic ImplicationsJulio Cesar Cavalcanti, Anders Eriksson and Plinio A. Barbosa Journal of Voice1 Aug 2021Influence of Reduced Saliva Production on Phonation in Patients With Ectodermal DysplasiaMarion Semmler, Stefan Kniesburges, Franziska Pelka, Maria Ensthaler, Olaf Wendler and Anne Sch\u00fctzenberger Phonetica78:2 (113-140)27 Apr 20211 Apr 2021Voice onset time and constriction duration in Warlpiri stops (Australia)Rikke L. Bundgaard-Nielsen and Carmel O'Shannessy Journal of Speech, Language, and Hearing Research64:4 (1197-1209)14 Apr 2021The Relationship Between Voice Onset Time and Increase in Vocal Effort and Fundamental FrequencyMatti D. Groll, Surbhi Hablani and Cara E. Stepp The Journal of the Acoustical Society of America149:3 (1657-1673)1 Mar 2021 Fluid-structure-acoustic interactions in an ex vivo porcine phonation model Marion Semmler, David A. Berry, Anne Sch\u00fctzenberger and Michael D\u00f6llinger Scientific Reports11:18 Jan 2021Subglottal pressure oscillations in anechoic and resonant conditions and their influence on excised larynx phonationsHugo Lehoux, V\u00edt Hampala and Jan G. \u0160vec Alberto Bolletta, Samir Mardini and Hung-Chi Chen (2021) Recipient Vessels: Voice Reconstruction Recipient Vessels in Reconstructive Microsurgery10.1007/978-3-030-75389-4_8 Frontiers in Zoology17:11 Dec 2020Vocal tract anatomy of king penguins: morphological traits of two-voiced sound productionHannah Joy Kriesell, C\u00e9line Le Bohec, Alexander F. Cerwenka, Moritz Hertel, Jean-Patrice Robin, Bernhard Ruthensteiner, Manfred Gahr, Thierry Aubin and Daniel Normen D\u00fcring Journal of Voice1 Dec 2020Effect of Ventricular Folds on Vocalization Fundamental Frequency in Domestic Pigs (Sus scrofa domesticus)Christian T. Herbst, Takeshi Nishimura, Maxime Garcia, Kishin Migimatsu and Isao T. Tokuda The Journal of the Acoustical Society of America148:1 (EL65-EL71)1 Jul 2020Effects of consonantal constrictions on voice qualityAdam J. Chong, Megan Risdal, Ann Aly, Jesse Zymet and Patricia Keating Proceedings of the National Academy of Sciences117:9 (4718-4723)3 Mar 2020High-fidelity continuum modeling predicts avian voiced sound productionWeili Jiang, Jeppe H. Rasmussen, Qian Xue, Ming Ding, Xudong Zheng and Coen P. H. Elemans Trends in Neurosciences43:2 (115-126)1 Feb 2020A Hierarchy of Autonomous Systems for Vocal ProductionYisi S. Zhang and Asif A. Ghazanfar EMC - Otorrinolaringolog\u00eda49:1 (1-16)1 Feb 2020Uso forzado de la vozL. Crevier Buchman, A. Mattei and A. Giovanni The Journal of the Acoustical Society of America147:1 (245-259)1 Jan 2020Longer vowel duration correlates with greater tongue root advancement at vowel offset: Acoustic and articulatory data from Italian and PolishStefano Coretta Takeshi Nishimura (2020) Primate Vocal Anatomy and Physiology: Similarities and Differences Between Humans and Nonhuman Primates The Origins of Language Revisited10.1007/978-981-15-4250-3_2 Lisa Bartha-Doering, Peter Birkholz, Cori Casanova, Felix de Jong, Wivine Decoster, Ilter Denizoglu, Rolf Dierichs, Christian Dobel, Mich\u00e8le Kaufmann-Meyer, Malte Kob, Anders L\u00f6fqvist, Dirk M\u00fcrbe, Christiane Neuschaefer-Rube, Christo Pantev, Bernhard Richter, Ken Ro\u00dflau, Oskar Schindler, Harm K. Schutte, Ad Snik, Claudia Spahn, Kurt Stephan and J\u00fcrgen Wendler (2020) Basics of Phoniatrics Phoniatrics I10.1007/978-3-662-46780-0_1 Sid M. Khosla and Hayley Born (2020) Laryngeal Physiology Neurologic and Neurodegenerative Diseases of the Larynx10.1007/978-3-030-28852-5_2 Matthew R. Hoffman, Maia N. Braden and J. Scott McMurray (2020) Physiology of Voice Production Multidisciplinary Management of Pediatric Voice and Swallowing Disorders10.1007/978-3-030-26191-7_6 The Journal of the Acoustical Society of America146:5 (3184-3202)1 Nov 2019Refining algorithmic estimation of relative fundamental frequency: Accounting for sample characteristics and fundamental frequency estimation methodJennifer M. Vojtech, Roxanne K. Segina, Daniel P. Buckley, Katharine R. Kolin, Monique C. Tardif, J. Pieter Noordzij and Cara E. Stepp Journal of Voice1 Sep 2019Acoustic and Aerodynamic Comparisons of Voice Qualities Produced After Voice TrainingNicholas A. Barone, Christy L. Ludlow and Cari M. Tellis Audiology and Speech Research15:3 (223-231)31 Jul 2019Effect of Speech Stimulus, Gender, and Age on Phonation Threshold Measures in Korean AdultsJu Eun Park, Seong Hee Choi, Kyoung Jae Lee and Chul-Hee Choi Head & Neck41:7 (2324-2331)1 Jul 2019Predicting glottal closure insufficiency using fundamental frequency contour analysisJacob T. Cohen, Alma Cohen, Limor Benyamini, Yossi Adi and Joseph Keshet The Anatomical Record302:5 (703-717)1 May 2019Anatomy and Functional Morphology of the Mysticete Rorqual Whale Larynx: Phonation Positions of the U\u2010FoldJULIETTE DAMIEN, OLIVIER ADAM, DORIAN CAZAU, PAUL WHITE, JEFFREY T. LAITMAN and JOY S. REIDENBERG Movement Disorders Clinical Practice6:3 (243-249)1 Mar 2019Relationship Between Respiratory Sensory Perception, Speech, and Swallow in Parkinson's DiseaseKaren W. Hegland, Michelle Troche and Alexandra Brandimore Journal of Phonetics72 (52-65)1 Jan 2019Voice onset time and beyond: Exploring laryngeal contrast in 19 languagesTaehong Cho, D.H. Whalen and Gerard Docherty Journal of Voice1 Jan 2019In Vivo Quantification of the Intraglottal Pressure: Modal Phonation and Voice OnsetPhilippe H. DeJonckere and Jean Lebacq (2018) Speech Articulation Phonetics10.1017/9781108289849.002 Ratree Wayland (2020) Phonetics Journal of Mechanics34:6 (791-800)1 Dec 2018Three Dimensional FSI Modelling of Sulcus Vocalis Disorders of Vocal FoldsA. Vazifehdoostsaleh, N. Fatouraee, M. Navidbakhsh and F. Izadi The Laryngoscope128:10 (2367-2374)1 Oct 2018Clinical relevance of endoscopic three-dimensional imaging for quantitative assessment of phonationMarion Semmler, Michael D\u00f6llinger, Rita R. Patel, Anke Ziethe and Anne Sch\u00fctzenberger The Journal of Experimental Biology221:16 (jeb172247)15 Aug 2018 Quantifying syringeal dynamics in vitro using electroglottography Jeppe H. Rasmussen, Christian T. Herbst and Coen P. H. Elemans The Journal of Experimental Biology221:12 (jeb171801)15 Jun 2018Japanese macaque phonatory physiologyChristian T. Herbst, Hiroki Koda, Takumi Kunieda, Juri Suzuki, Maxime Garcia, W. Tecumseh Fitch and Takeshi Nishimura Computer Methods in Biomechanics and Biomedical Engineering21:8 (532-540)11 Jun 2018Numerical analysis and comparison of flow fields in normal larynx and larynx with unilateral vocal fold paralysisAmirhossein Bagheri Sarvestani, Ebrahim Goshtasbi Rad and Kamyar Iravani Journal of Medical Devices12:11 Mar 2018Design and Evaluation of a Mechanically Driven Artificial Speech DeviceTyler G. Tuttle and Byron D. Erath Annual Review of Linguistics4:1 (255-279)14 Jan 2018The Biology and Evolution of Speech: A Comparative AnalysisW. Tecumseh Fitch Anthropological Science126:1 (3-8)The descended larynx and the descending larynxTAKESHI NISHIMURA Anthropological Science126:1 (19-27)Non-invasive documentation of primate voice production using electroglottographyCHRISTIAN T. HERBST and JACOB C. DUNN Anthropological Science126:1 (9-17)Excised larynx experimentation: history, current developments, and prospects for bioacoustic researchMAXIME GARCIA and CHRISTIAN T. HERBST Procedia Computer Science126 (423-430)Voice source modelling using modified LF model with reduced parametersAnis Ben Aicha Scientific Reports7:112 Sep 2017In situ vocal fold properties and pitch prediction by dynamic actuation of the songbird syrinxDaniel N. D\u00fcring, Benjamin J. Kn\u00f6rlein and Coen P. H. Elemans Scientific Reports7:15 Sep 2017Acoustic allometry revisited: morphological determinants of fundamental frequency in primate vocal productionMaxime Garcia, Christian T. Herbst, Daniel L. Bowling, Jacob C. Dunn and W. Tecumseh Fitch Tissue and Cell49:3 (427-434)1 Jun 2017Structurally and functionally characterized in vitro model of rabbit vocal fold epitheliumMasanobu Mizuta, Takashi Kurita, Emily E. Kimball and Bernard Rousseau Journal of Voice31:3 (378.e1-378.e11)1 May 2017Metabolic Mechanisms of Vocal FatigueChayadevie Nanjundeswaran, Jessie VanSwearingen and Katherine Verdolini Abbott The Laryngoscope127:5 (1102-1108)1 May 2017A New Conceptual Approach for Voice Feminization: 12 Years of ExperienceHyung\u2010Tae Kim International Journal of Pharma and Bio Sciences8:26 Apr 2017Creation of voice database, acoustic analysis and standardisation of normal indian voicesLATHADEVI H T, MALIPATIL SR and S P GUGGARI GOUDAR The Journal of the Acoustical Society of America141:3 (1715-1725)1 Mar 2017Relations among subglottal pressure, breathing, and acoustic parameters of sentence-level prominence in GermanCaterina Petrone, Susanne Fuchs and Laura L. Koenig Nowa Audiofonologia6:4 (16-20)26 Oct 2020Process of voice production \u2013 an overview of the current literaturePaulina Krasnod\u0119bska, Tomasz Wolak and Agata Szkie\u0142kowska Pattern Recognition and Image Analysis27:1 (139-151)1 Jan 2017Determination of a vocal source by the spectral ratio methodV. N. Sorokin and A. S. Leonov Journal of Voice31:1 (116.e1-116.e5)1 Jan 2017The Potential Role of Subglottal Convergence Angle and MeasurementXinlin Xu, Jingan Wang, Erin E. Devine, Yong Wang, Hua Zhong, Maxwell R. Courtright, Li Zhou, PeiYun Zhuang and Jack J. Jiang Petr H\u00e1jek, Pavel \u0160vancara, Jarom\u00edr Hor\u00e1\u010dek and Jan G. \u0160vec (2017) Numerical Simulation of the Self-oscillating Vocal Folds in Interaction with Vocal Tract Shaped for Particular Czech Vowels Recent Global Research and Education: Technological Challenges10.1007/978-3-319-46490-9_43 MOJ Clinical & Medical Case Reports5:39 Dec 2016Management of Laryngo Tracheal Injury Our ExperienceSanjeev Mohanty The Journal of the Acoustical Society of America140:4 (2614-2635)1 Oct 2016Mechanics of human voice production and controlZhaoyan Zhang Journal of Speech, Language, and Hearing Research59:5 (1002-1017)1 Oct 2016Exploring the Clinical Utility of Relative Fundamental Frequency as an Objective Measure of Vocal HyperfunctionNelson Roy, Rebecca A. Fetrow, Ray M. Merrill and Christopher Dromey The Laryngoscope126:7 (1589-1594)1 Jul 2016Nonstimulated rabbit phonation model: Cricothyroid approximationCarolyn K. Novaleski, Tsuyoshi Kojima, Siyuan Chang, Haoxiang Luo, Carla V. Valenzuela and Bernard Rousseau PLOS Computational Biology12:6 (e1004907)16 Jun 2016Predicting Achievable Fundamental Frequency Ranges in Vocalization Across SpeciesIngo Titze, Tobias Riede, Ted Mau and Fr\u00e9d\u00e9ric E. Theunissen Computer Speech & Language36 (365-394)1 Mar 2016Nonlinear interactive source-filter models for speechTurgay Koc and Tolga Ciloglu Journal of Biomechanical Science and Engineering11:4 (16-00414-16-00414)A possible common physical principle that underlies animal vocalization: theoretical considerations with an unsteady airflow-structure interaction modelShinji DEGUCHI Cells Tissues Organs202:5-6 (355-368)Evaluation of Dying Vocal Fold Epithelial Cells by Ultrastructural Features and TUNEL MethodCarolyn K. Novaleski, Masanobu Mizuta and Bernard Rousseau Christian T. Herbst (2016) Biophysics of Vocal Production in Mammals Vertebrate Sound Production and Acoustic Communication10.1007/978-3-319-27721-9_6 Daniel N. D\u00fcring and Coen P. H. Elemans (2016) Embodied Motor Control of Avian Vocal Production Vertebrate Sound Production and Acoustic Communication10.1007/978-3-319-27721-9_5 W. Tecumseh Fitch (2016) Vertebrate Bioacoustics: Prospects and Open Problems Vertebrate Sound Production and Acoustic Communication10.1007/978-3-319-27721-9_10 W. Tecumseh Fitch and Roderick A. Suthers (2016) Vertebrate Vocal Production: An Introductory Overview Vertebrate Sound Production and Acoustic Communication10.1007/978-3-319-27721-9_1 Communication Sciences & Disorders20:4 (607-616)31 Dec 2016Pattern Analysis of Voice Onset and Offset in Normal Adults Using High-Speed Digital Imaging: The Role of Arytenoid Cartilage MovementsSeong Hee Choi, Chi-Sun Oh and Chul-Hee Choi Nature Communications6:11 Dec 2015Universal mechanisms of sound production and control in birds and mammalsC.P.H Elemans, J.H. Rasmussen, C.T. Herbst, D.N. D\u00fcring, S.A. Zollinger, H. Brumm, K. Srivastava, N. Svane, M. Ding, O.N. Larsen, S.J. Sober and J.G. \u0160vec Journal of Phonetics52 (35-45)1 Sep 2015Assessing respiratory contributions to f 0 declination in German across varying speech tasks and respiratory demandsSusanne Fuchs, Caterina Petrone, Am\u00e9lie Rochet-Capellan, Uwe D. Reichel and Laura L. Koenig Ross D. Farhadieh and Wayne A.J. Morrison (2015) Pharyngeal reconstruction Plastic and reconstructive surgery10.1002/9781118655412.ch28 Journal of Experimental Biology218:7 (991-998)1 Apr 2015 Functional morphology of the Alligator mississippiensis larynx with implications for vocal production Tobias Riede, Zhiheng Li, Isao T. Tokuda and Colleen G. Farmer Brad H. Story (2015) Mechanisms of Voice Production The Handbook of Speech Production10.1002/9781118584156.ch3 The Journal of the Acoustical Society of America137:3 (1493-1502)1 Mar 2015Three speech sounds, one motor action: Evidence for speech-motor disparity from English flap productionDonald Derrick, Ian Stavness and Bryan Gick Cancer Research75:1 (31-39)1 Jan 2015A Noninvasive Procedure for Early-Stage Discrimination of Malignant and Precancerous Vocal Fold Lesions Based on Laryngeal Dynamics AnalysisJakob Unger, J\u00f6rg Lohscheller, Maximilian Reiter,   Christian S.  and Maria  Computer Methods in Biomechanics and Biomedical   Dec    of   in vocal fold   and   The Journal of the Acoustical Society of   Nov    of the  of    pressure on vocal fold  H.  and  Zhang Journal of   Nov   of Vocal Fold  A Review  K.  Computer Speech &   Sep  source   analysis to       and   Journal of   Jul  Fold Dynamics for Frequency   Journal of  and   Jul  of a   model of   and     Jul   International Journal of  &   Jun  a  Larynx: A  in Clinical     and   The  Apr    of   and  fields in excised     Jun  and   The Journal of the Acoustical Society of   Jan   and   in    Sid Khosla and    Peters, R.  J. Van    K.   Van   and             The   Jan  of   and   laryngeal  D.  Journal of Experimental   Nov    in an   T. Herbst, Jan G. \u0160vec, J\u00f6rg Lohscheller,      S.  and W. Tecumseh Fitch Medical Engineering &   Aug  dynamics of vocal  using  normal  P.  and   Journal of   Jul  and Acoustic  of  Vocal  A.    and Brad H. Story Audiology - Communication         de     Carla    Jos\u00e9    and     of Biomedical   Dec    in  Vocal Fold    the  of  E.    and  W.  Journal of   Nov  of   Differences in   Using  High-Speed Videoendoscopy and  F.  Maria E.  and Dimitar D. Deliyski   Aug       Production  of    T. Herbst,  S.    J\u00f6rg Lohscheller, Ingo R. Titze,   and W. Tecumseh Fitch Research in   Jun   the Voicing of English  Voicing   Voicing   and   Journal of   Mar   Voice  in   Digital Signal   Mar  of  dynamics of vocal  using    and   P.  David E.   D.  Jos\u00e9 C.  and   The   Feb    of   on acoustic characteristics of    A.   N.   E.    and   Acoustical Science and   of   on the  of flow   the        Control in  and  Speech of   Paul   and  L.  T. V.   Aerodynamic and Acoustic Theory of Voice Production Forensic   The Journal of the Acoustical Society of   Dec  acoustic correlates of human vocal fold     modeling and laryngeal   D.  Mat\u00edas Za\u00f1artu,  F.  Dimitar D. Deliyski and  E.    Oct  analysis of speech   and    Journal of Experimental   Sep  Subglottal pressure and fundamental frequency control in   of  Alligator mississippiensis Tobias Riede, Isao T. Tokuda and C. G. Farmer    of Voice  The Journal of the Acoustical Society of   Apr  the     and   as  phonation onset  Zhang    Mar  of and Threshold Biomechanical  for  Voice   and   The Journal of the Acoustical Society of   Mar     acoustic model of the subglottal  for speech  C.  Mat\u00edas  and  R.  Medical Engineering &   Mar   of the glottal  into a    C.  M.  and M. D\u00f6llinger The Journal of  &   Feb    S  Donald F.    of  for Phonation     and  J.     of the Respiratory System   Journal of the International    Dec  acoustic correlates of the  contrast in      M. T.  and   Journal of Speech, Language, and Hearing   Oct   of Vocal  on Relative Fundamental Frequency  Voicing Offset and  E.   E.  and  T.  Brain and   Oct  mechanisms for vocal production in birds \u2013  and  to human speech and   and   Journal of Experimental   Sep   and   of       vocal  Tobias  Plastic and Reconstructive   Aug  of the  and   Christopher J.   F. Kim  and Hung-Chi Chen  on Voice and Voice   Jul    of Voice   R.  The Journal of the Acoustical Society of   Mar   of the glottal   and       Laryngeal and Pharyngeal    - Head and Neck    and     and   of the vocal  Handbook of Mammalian Vocalization - An     S.  and Jennifer L.    of the larynx and production of  Handbook of Mammalian Vocalization - An    The   comparison of   properties using    F.   J.  and Jack J. Jiang Journal of   Jul  with  vocal     properties of their vocal  Riede,    J.  and Ingo R. Titze Tissue Engineering Part B:   Sep  Engineering  for the Vocal Fold   K.  and Ken     Feb  tract  in   and       and   Journal of   Jan  of  of  on  acoustic correlates of the   contrast in   B.     Speech Physiology to   Journal of   Nov  and Aerodynamic  for Voicing   of  A   L.   C.  and W.   The   Oct   of Voice in the  by an       S.  and  J.      Mar   in        A.       P.   A.  and Paul F.  Acoustical Science and   the  interaction of the flow   the     of   Oct   in unilateral laryngeal     theoretical   Richard      and Antoine Giovanni Journal of   Sep   as a   The use of  in  a  J.  The Journal of the Acoustical Society of   Jul  of  modeling of   and voice  with excised larynx  T. Tokuda,   Jan G. \u0160vec and    of   &   Feb  Voice  in  by  Laryngeal     of       M.  and  J.  The Journal of the Acoustical Society of   Feb  of acoustic  on an    model of the vocal  Za\u00f1artu,   and  R.   Research   Mar  of voiced  using  models of the vocal  and  subglottal    R.    and   EMC -   Jan  de la     and   The Journal of the Acoustical Society of   Oct",
+        "authors": [
+          "Janwillem van den Berg"
+        ],
+        "year": 1958,
+        "url": "https://doi.org/10.1044/jshr.0103.227"
+      },
+      {
+        "id": "https://openalex.org/W2120263555",
+        "title": "Processing of Natural Sounds in Human Auditory Cortex: Tonotopy, Spectral Tuning, and Relation to Voice Sensitivity",
+        "abstract": "Auditory cortical processing of complex meaningful sounds entails the transformation of sensory (tonotopic) representations of incoming acoustic waveforms into higher-level sound representations (e.g., their category). However, the precise neural mechanisms enabling such transformations remain largely unknown. In the present study, we use functional magnetic resonance imaging (fMRI) and natural sounds stimulation to examine these two levels of sound representation (and their relation) in the human auditory cortex. In a first experiment, we derive cortical maps of frequency preference (tonotopy) and selectivity (tuning width) by mathematical modeling of fMRI responses to natural sounds. The tuning width maps highlight a region of narrow tuning that follows the main axis of Heschl's gyrus and is flanked by regions of broader tuning. The narrowly tuned portion on Heschl's gyrus contains two mirror-symmetric frequency gradients, presumably defining two distinct primary auditory areas. In addition, our analysis indicates that spectral preference and selectivity (and their topographical organization) extend well beyond the primary regions and also cover higher-order and category-selective auditory regions. In particular, regions with preferential responses to human voice and speech occupy the low-frequency portions of the tonotopic map. We confirm this observation in a second experiment, where we find that speech/voice selective regions exhibit a response bias toward the low frequencies characteristic of human voice and speech, even when responding to simple tones. We propose that this frequency bias reflects the selective amplification of relevant and category-characteristic spectral bands, a useful processing step for transforming a sensory (tonotopic) sound image into higher level neural representations.",
+        "authors": [
+          "Michelle Moerel",
+          "Federico De Martino",
+          "Elia Formisano"
+        ],
+        "year": 2012,
+        "url": "https://doi.org/10.1523/jneurosci.1388-12.2012"
+      },
+      {
+        "id": "e2fa5d83696075d9fda62120575d9e7d",
+        "title": "Animal spirits: how human psychology drives the economy, and why it matters for global capitalism",
+        "year": 2009,
+        "authors": [],
+        "url": "https://doi.org/10.5860/choice.46-6301",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "2826ca619e8284c15a323ca137696a68",
+        "title": "Journal of experimental psychology: Human Perception and performance",
+        "year": 1987,
+        "authors": [
+          "James E. Cutting"
+        ],
+        "url": "https://doi.org/10.1016/0022-460x(87)90423-8",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "http://arxiv.org/abs/2401.03581v1",
+        "title": "Evaluating and Personalizing User-Perceived Quality of Text-to-Speech Voices for Delivering Mindfulness Meditation with Different Physical Embodiments",
+        "abstract": "Mindfulness-based therapies have been shown to be effective in improving mental health, and technology-based methods have the potential to expand the accessibility of these therapies. To enable real-time personalized content generation for mindfulness practice in these methods, high-quality computer-synthesized text-to-speech (TTS) voices are needed to provide verbal guidance and respond to user performance and preferences. However, the user-perceived quality of state-of-the-art TTS voices has not yet been evaluated for administering mindfulness meditation, which requires emotional expressiveness. In addition, work has not yet been done to study the effect of physical embodiment and personalization on the user-perceived quality of TTS voices for mindfulness. To that end, we designed a two-phase human subject study. In Phase 1, an online Mechanical Turk between-subject study (N=471) evaluated 3 (feminine, masculine, child-like) state-of-the-art TTS voices with 2 (feminine, masculine) human therapists' voices in 3 different physical embodiment settings (no agent, conversational agent, socially assistive robot) with remote participants. Building on findings from Phase 1, in Phase 2, an in-person within-subject study (N=94), we used a novel framework we developed for personalizing TTS voices based on user preferences, and evaluated user-perceived quality compared to best-rated non-personalized voices from Phase 1. We found that the best-rated human voice was perceived better than all TTS voices; the emotional expressiveness and naturalness of TTS voices were poorly rated, while users were satisfied with the clarity of TTS voices. Surprisingly, by allowing users to fine-tune TTS voice features, the user-personalized TTS voices could perform almost as well as human voices, suggesting user personalization could be a simple and very effective tool to improve user-perceived quality of TTS voice.",
+        "authors": [
+          "Zhonghao Shi",
+          "Han Chen",
+          "Anna-Maria Velentza",
+          "Siqi Liu",
+          "Nathaniel Dennler",
+          "Allison O'Connell",
+          "Maja Matari\u0107"
+        ],
+        "year": 2024,
+        "url": "http://arxiv.org/abs/2401.03581v1"
+      },
+      {
+        "id": "fdd5ed2576489c2b5e9e2d13fbe171f2",
+        "title": "Journal of Experimental Psychology: Human Perception and Performance.",
+        "year": 1981,
+        "authors": [
+          "Margaret Jean Intons-Peterson"
+        ],
+        "url": "https://doi.org/10.1037/h0078016",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "8b336fd33b2b8d48789a3402f9230d4c",
+        "title": "On the Utility of Learning about Humans for Human-AI Coordination",
+        "year": 2019,
+        "authors": [
+          "Micah Carroll",
+          "Rohin Shah",
+          "Mark K. Ho",
+          "Thomas L. Griffiths",
+          "Sanjit A. Seshia",
+          "Pieter Abbeel",
+          "Anca Dragan"
+        ],
+        "url": "http://arxiv.org/abs/1910.05789v2",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "b34081010667c2ff975df04c3a2f4a43",
+        "title": "The Evolutionary Origins of Human Patience: Temporal Preferences in Chimpanzees, Bonobos, and Human Adults",
+        "year": 2007,
+        "authors": [
+          "Alexandra G. Rosati",
+          "Jeffrey R. Stevens",
+          "Brian Hare",
+          "Marc D. Hauser"
+        ],
+        "url": "https://doi.org/10.1016/j.cub.2007.08.033",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "a04dcb8099e10cb38cdc736a25da34ce",
+        "title": "Kurt Lewin, psychological constructs and sources of brain cognitive activity",
+        "year": 2017,
+        "authors": [
+          "W\u0142odzis\u0142aw Duch"
+        ],
+        "url": "http://arxiv.org/abs/1711.01767v1",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "1813d0b1644413a1e45a391aa71676d0",
+        "title": "Needs-aware Artificial Intelligence: AI that 'serves [human] needs'",
+        "year": 2022,
+        "authors": [
+          "Ryan Watkins",
+          "Soheil Human"
+        ],
+        "url": "http://arxiv.org/abs/2202.04977v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "5e63920874e558dcdb9a7b407693ca03",
+        "title": "How Good Is NLP? A Sober Look at NLP Tasks through the Lens of Social Impact",
+        "year": 2021,
+        "authors": [
+          "Zhijing Jin",
+          "Geeticka Chauhan",
+          "Brian Tse",
+          "Mrinmaya Sachan",
+          "Rada Mihalcea"
+        ],
+        "url": "http://arxiv.org/abs/2106.02359v3",
+        "similarity_score": 0.0
+      },
+      {
+        "id": "267b716e148e23e477b042334119f3cd",
+        "title": "Toward a Psychology of Human Agency",
+        "year": 2006,
+        "authors": [
+          "Albert Bandura"
+        ],
+        "url": "https://doi.org/10.1111/j.1745-6916.2006.00011.x",
+        "similarity_score": 0.0
+      }
+    ],
+    "timestamp": "2026-06-22T20:52:23.830542+00:00"
   }
 }
